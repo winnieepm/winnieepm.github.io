@@ -1,0 +1,51 @@
+/* hover START */
+.container-overlay {
+    position: relative;
+}
+
+.container-overlay:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(117, 114, 222, 0.85);
+  }
+/* hover END */
+
+.content-body {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #a379c9;
+    width: 75%;
+    margin: 3%;
+    padding: 4%;
+}
+
+.grid-item {
+    width: 100%;
+}
+
+.personal-exp {
+    grid-template-columns: repeat(2, 1fr);  
+    grid-template-rows: 1fr;
+}
+
+/* .subtitle exists & is in use but is not styled yet */
+
+.teamwork {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
