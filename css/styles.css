@@ -1,0 +1,23 @@
+body {
+    background-image: url(../imgs/grid-ibkg2.png);
+    background-repeat: repeat;
+    font-family: tahoma;
+}
+
+.body-container {
+    margin: auto;
+    width: 75%;
+}
+
+.main-sec {
+    margin-top: 10em;
+}
+
+#bare-navbar ul li {
+    display: inline;
+    padding-left: 2em;
+}
+
+#about {
+    padding-top: 1em;
+}
