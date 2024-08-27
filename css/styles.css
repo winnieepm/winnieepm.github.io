@@ -1,7 +1,37 @@
 body {
     background-image: url(../imgs/grid-ibkg2.png);
     background-repeat: repeat;
-    font-family: tahoma;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+        font-family: "Londrina Outline", sans-serif;
+        font-size: 300%;
+}
+
+h2 {
+    color: #8653F2;
+}
+
+footer {
+    padding-top: 4em;
+}
+
+footer ul li {
+    display: inline;
+}
+
+#bare-navbar {
+    background-color: #8C9EFF;
+}
+
+#bare-navbar ul li {
+    display: inline;
+    padding-left: 2em;
+}
+
+#about {
+    padding-top: 1em;
 }
 
 .body-container {
@@ -13,11 +43,3 @@ body {
     margin-top: 10em;
 }
 
-#bare-navbar ul li {
-    display: inline;
-    padding-left: 2em;
-}
-
-#about {
-    padding-top: 1em;
-}
