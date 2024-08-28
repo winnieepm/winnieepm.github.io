@@ -44,7 +44,7 @@ footer img {
 #bare-navbar ul  {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: .5em;
     margin: 0;
 }
