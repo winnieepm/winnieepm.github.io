@@ -15,9 +15,13 @@ h1 {
 }
 
 h2 {
-    color: #8653F2;
+    color: #7948e2;
 }
 
+a {
+    color: #824cf7;
+    text-decoration: none;
+}
 
 footer {
     padding-top: 4em;
@@ -29,11 +33,12 @@ footer img {
 }
 
 #title-header {
+    margin-top: 2em; 
     margin-bottom: 2.5em;
 }
 
 #bare-navbar {
-    background-color: #8C9EFF;
+    background-color: #93a3fd9c;
 }
 
 #bare-navbar ul  {
@@ -42,6 +47,10 @@ footer img {
     justify-content: space-between;
     padding: .5em;
     margin: 0;
+}
+
+#bare-navbar a  {
+    text-decoration: overline;
 }
 
 #about {
@@ -55,6 +64,6 @@ footer img {
 }
 
 .main-sec {
-    margin-top: 10em;
+    margin-top: 3em;
 }
 
