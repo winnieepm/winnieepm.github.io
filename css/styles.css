@@ -2,9 +2,7 @@ body {
     background-image: url(../imgs/grid-ibkg2.png);
     background-repeat: repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: auto;
-    width: 50%;
-
+    
 }
 
 h1 {
@@ -57,10 +55,18 @@ footer img {
     padding-top: 1em;
 }
 
-.body-container {
+#blog {
+    background-color: #93a3fd9c;
+    padding: .5em;
+    
+}
+
+.container {
+    margin: auto;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    row-gap: em;
+    row-gap: 1em;
 }
 
 .main-sec {
