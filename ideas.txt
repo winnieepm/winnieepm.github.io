@@ -1,0 +1,11 @@
+theme for 11ty microsite. looks close to what i have right now.
+https://voight-microsite.netlify.app/
+
+11ty blog theme
+https://eleventy-base-blog.netlify.app/
+
+11ty pastel theme
+https://glitch-hello-eleventy.glitch.me/
+
+most plain, vanilla blog theme 11ty
+https://github.com/dylnbk/11ty-blog
