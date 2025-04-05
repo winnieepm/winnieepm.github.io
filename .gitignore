@@ -1,2 +1,5 @@
 # dirs
 blog/
+
+# files
+.gitignore
