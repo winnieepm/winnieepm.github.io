@@ -1,6 +1,6 @@
-# dirs
-blog/
-
 # files
-.gitignore
 .DS_Store
+
+# blog build files 
+blog/node_modules/
+blog/dist/
