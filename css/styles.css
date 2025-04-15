@@ -16,7 +16,7 @@ h2 {
     color: #7948e2;
 }
 
-a {
+a:link {
     color: #824cf7;
     text-decoration: none;
 }
