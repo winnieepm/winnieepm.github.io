@@ -3,4 +3,4 @@
 
 # blog build files 
 blog/node_modules/
-blog/dist/
+blog/_site/
