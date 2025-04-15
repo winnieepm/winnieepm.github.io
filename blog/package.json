@@ -4,13 +4,26 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx @11ty/eleventy --serve --incremental"
+    "start": "npx @11ty/eleventy --incremental --serve"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["node",
+    "glitch",
+    "express"],
+  "author": "winnie e. pérez martínez",
+  "license": "MIT",
   "description": "",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "eleventy-plugin-seo": "0.5.2",
+    "luxon": "^3.4.0"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-hello-eleventy"
+  },
+  "glitch": {
+    "projectType": "generated_static"
   }
-}
+}  
