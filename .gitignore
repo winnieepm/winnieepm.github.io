@@ -3,3 +3,4 @@ blog/
 
 # files
 .gitignore
+.DS_Store
