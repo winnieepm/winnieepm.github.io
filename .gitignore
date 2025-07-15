@@ -1,4 +1,9 @@
 # files
 blog/
-.gitignore
+.DS_Store
+
+# blog build files 
+blog/node_modules/
+blog/_site/
+
 .DS_Store
