@@ -1,6 +1,7 @@
 # files
 blog/
 .DS_Store
+node_modules/
 
 # blog build files 
 blog/node_modules/
