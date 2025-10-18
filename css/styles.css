@@ -1,75 +1,13 @@
 body {
-    background-image: url(../imgs/grid-ibkg2.png);
-    background-repeat: repeat;
+    background-color: #dfd1ff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
-h1 {
+h1.fullname {
         font-family: "Londrina Outline", sans-serif;
         font-size: 300%;
         margin-top: .1em;
         margin-bottom: .2em; 
-}
-
-h2 {
-    color: #7948e2;
-}
-
-a:link {
-    color: #824cf7;
-    text-decoration: none;
-}
-
-footer {
-    padding-top: 4em;
-}
-
-footer img {
-    width: 6%;
-    height: auto;
-}
-
-#title-header {
-    margin-top: 2em; 
-    margin-bottom: 2.5em;
-}
-
-#bare-navbar {
-    background-color: #93a3fd9c;
-}
-
-#bare-navbar ul  {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    padding: .5em;
-    margin: 0;
-}
-
-#bare-navbar a  {
-    text-decoration: overline;
-}
-
-#about {
-    padding-top: 1em;
-}
-
-#blog {
-    background-color: #93a3fd9c;
-    padding: 0.5em;
-    
-}
-
-.container {
-    margin: auto;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1em;
-}
-
-.main-sec {
-    margin-top: 3em;
+        color: #6229DB;
 }
 
