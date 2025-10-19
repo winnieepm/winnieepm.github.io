@@ -14,18 +14,20 @@ h1.fullname {
         margin: .5em;
         color: #6229DB;
 }
+header {
+    display: inline;
+}
 
 li {
     list-style-type: none;
 }
 
 main {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 2fr 1fr;   
-    grid-column: auto auto;
-    height: 100vh;
+    grid-column: auto auto; */
     font-size: 125%;
-    padding: auto;
+    padding: 0;
 }
 
 .content {
@@ -33,12 +35,16 @@ main {
     padding-left: 2em;
 }
 .layout {
-    /* display: grid;
-    grid-template-columns: auto;
-    height: 100vh; */
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    height: 100vh;
     padding: 2em;
 }
 .nav-item {
     font-weight: bold;
     padding: 1em;
+}
+
+.site-nav {
+    grid-row: 1 / span 2;
 }
