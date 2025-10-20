@@ -1,3 +1,3 @@
-module.exports = async function(eleventyConfig) {
-    
+module.exports = function(eleventyConfig) {
+    eleventyConfig.addPassthroughCopy("css/styles.css");
 };
