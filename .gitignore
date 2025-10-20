@@ -1,6 +1,6 @@
-# files
-_site/
+# root
 .DS_Store
+_site/
 node_modules/
 
 
