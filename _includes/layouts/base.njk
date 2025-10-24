@@ -12,12 +12,15 @@
 <body>
     <div class="layout">
         <header>
-            <h1 class="fullname">winnie e. pérez martínez</h1>
+        <h1 class="fullname"> {{ title or "HOME PAGE" }}</h1>
         </header>
-        <main>
-            <section class="content">
-                {{ content | safe  }}
-            </section> 
+       <main>
+        {% block content %} 
+            {% include "layouts/about.njk" %}
+            {% include "layouts/cv.njk" %}
+            {% include "layouts/projects.njk" %}
+            {% include "layouts/blog.njk" %}
+        {% endblock %}
         </main>
         <nav>
             {% include "partials/nav.njk" %}

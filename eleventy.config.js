@@ -1,6 +1,16 @@
-module.exports = function(eleventyConfig) {
-    markdownTemplateEngine: "njk";
-    htmlTemplateEngine: "njk";
+module.exports = async function(eleventyConfig) {
+    // const { RenderPlugin } = await import("@11ty/eleventy");
+    // eleventyConfig.addPlugin(RenderPlugin);
+    eleventyConfig.setTemplateFormats(["njk", "md", "html"]);
     eleventyConfig.addPassthroughCopy("css/styles.css");
 
+
+    return {
+    dir: {
+      input: ".", // root directory is input    
+      includes: "_includes", // _includes contains layouts + partials
+      layouts: "_includes/layouts",
+      output: "_site",
+    },
+  };
 };
