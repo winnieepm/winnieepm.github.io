@@ -1,8 +1,4 @@
----
-title: about
----
-
-this is a test!!!!
+## this is a test!!!!
 
 my sport is asking questions and learning about everything. this is where i document some results, joys, and failures.
 

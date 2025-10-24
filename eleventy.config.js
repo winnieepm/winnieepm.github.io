@@ -1,9 +1,9 @@
 module.exports = async function(eleventyConfig) {
-    // const { RenderPlugin } = await import("@11ty/eleventy");
-    // eleventyConfig.addPlugin(RenderPlugin);
+    const { EleventyRenderPlugin } = await import("@11ty/eleventy");
+    eleventyConfig.addPlugin(EleventyRenderPlugin);
+    
     eleventyConfig.setTemplateFormats(["njk", "md", "html"]);
     eleventyConfig.addPassthroughCopy("css/styles.css");
-
 
     return {
     dir: {
