@@ -15,6 +15,7 @@
             <h1 class="fullname"> {{ title or "HOME PAGE" }}</h1>
         </header>
        <main>
+        {{ content | safe }}
         {% block content %} 
             {% include "layouts/about.njk" %}
             {% include "layouts/cv.njk" %}
