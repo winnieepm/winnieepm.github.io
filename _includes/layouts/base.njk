@@ -17,10 +17,19 @@
        <main>
         {{ content | safe }}
         {% block content %} 
-            {% include "layouts/about.njk" %}
-            {% include "layouts/cv.njk" %}
-            {% include "layouts/projects.njk" %}
-            {% include "layouts/blog.njk" %}
+            
+            <section id="about" class="about">
+                {% renderFile "./about.md"  %}
+            </section>
+            <section id="projects">
+                {% renderFile "./projects.md"  %}
+            </section>
+            <section id="blog">
+                {% renderFile "./blog.md"  %}
+            </section>
+            <section class="cv">
+                {% renderFile "./cv.md" %}
+            </section>
         {% endblock %}
         </main>
         <nav>
