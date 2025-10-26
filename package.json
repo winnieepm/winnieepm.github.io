@@ -1,5 +1,23 @@
 {
+  "name": "winnieepm.github.io",
+  "version": "1.0.0",
+  "description": "working on a personal site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winnieepm/winnieepm.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winnieepm/winnieepm.github.io/issues"
+  },
+  "homepage": "https://github.com/winnieepm/winnieepm.github.io#readme",
   "dependencies": {
-    "nunjucks": "^3.2.4"
+    "@11ty/eleventy": "^3.1.2"
   }
 }

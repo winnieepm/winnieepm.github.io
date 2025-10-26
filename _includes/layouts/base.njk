@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="layout">
+        <header>
+            <h1 class="fullname"> {{ title or "HOME PAGE" }}</h1>
+        </header>
+       <main>
+        {{ content | safe }}
+        {% block content %} 
+            {% include "layouts/about.njk" %}
+            {% include "layouts/cv.njk" %}
+            {% include "layouts/projects.njk" %}
+            {% include "layouts/blog.njk" %}
+        {% endblock %}
+        </main>
+        <nav>
+            {% include "partials/nav.njk" %}
+        </nav>
+    </div>
+</body>
+</html>
