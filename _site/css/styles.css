@@ -24,6 +24,8 @@ header {
 }
 li {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 main {
     grid-column: 1 / 2;
@@ -33,7 +35,9 @@ main {
 nav {
     grid-row: 1 / span 2;
     grid-column: 2;
+    height: 100%;
 }
+
 
 /* class list */
 .content {
@@ -48,11 +52,13 @@ nav {
 .nav-item {
     font-weight: bold;
     font-size: 150%;
-    padding: 1em;
 }
 .site-nav {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    min-height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
 }
