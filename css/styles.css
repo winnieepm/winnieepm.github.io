@@ -12,7 +12,6 @@ body {
     min-height: 100vh;
     padding: 2%;
 }
-
 h1.fullname {
         font-family: "Londrina Outline", sans-serif;
         font-size: 325%;
@@ -37,11 +36,18 @@ nav {
     height: 100%;
 }
 
-
-/* class list */
 .content {
     padding-left: 2em;
     max-width: 65%;
+}
+.content-section {
+    display: none;
+}
+.content-section:target {
+    display: block;
+}
+.content-section:target ~ .content-section {
+    display: none;
 }
 .layout {
     display: grid;

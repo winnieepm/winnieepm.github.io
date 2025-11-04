@@ -18,16 +18,16 @@
         {{ content | safe }}
         {% block content %} 
             
-            <section id="about" class="about">
+            <section id="about" class="content-section">
                 {% renderFile "./about.md"  %}
             </section>
-            <section id="projects">
+            <section id="projects" class="content-section">
                 {% renderFile "./projects.md"  %}
             </section>
-            <section id="blog">
+            <section id="blog" class="content-section">
                 {% renderFile "./blog.md"  %}
             </section>
-            <section class="cv">
+            <section id="cv" class="content-section">
                 {% renderFile "./cv.md" %}
             </section>
         {% endblock %}
