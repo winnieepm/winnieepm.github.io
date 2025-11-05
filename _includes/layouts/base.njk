@@ -12,7 +12,7 @@
 <body>
     <div class="layout">
         <header>
-            <h1 class="fullname"> {{ title or "HOME PAGE" }}</h1>
+            <h1 class="fullname"> <a href="index.html">{{ title or "HOME PAGE" }}</a></h1>
         </header>
        <main>
         {{ content | safe }}
