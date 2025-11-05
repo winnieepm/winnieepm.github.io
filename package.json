@@ -4,7 +4,9 @@
   "description": "working on a personal site.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy --watch --serve",
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
