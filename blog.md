@@ -1,2 +1,2 @@
 ## blog
-i'm not sure if i should mk a full nested site here or link to a collection of markdown files for the blog. 
+maybe a front-matter heavy file with a growing list of blog titles. the html shows a link per entry, all organized within a list. 

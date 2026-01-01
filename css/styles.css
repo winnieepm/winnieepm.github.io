@@ -9,11 +9,11 @@ a:active {
 
 body {
     background-color: #dfd1ff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'trebuchet', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 98vh;
     padding: 2%;
     padding-left: 10%;
 }
@@ -60,7 +60,7 @@ nav {
 }
 .fullname {
     font-family: "Londrina Outline", sans-serif;
-    font-size: 325%;
+    font-size: 425%;
     color: #6229DB;
 }
 .fullname a:visited {
