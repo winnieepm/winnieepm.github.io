@@ -9,7 +9,7 @@ a:active {
 
 body {
     background-color: #dfd1ff;
-    font-family: 'PT sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Jost', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@ nav {
     display: none;
 }
 .fullname {
-    font-family: "Londrina Outline", sans-serif;
+    font-family: "Fascinate Inline", system-ui, sans-serif;
     font-size: 425%;
     color: #6229DB;
 }
@@ -73,8 +73,9 @@ nav {
     grid-template-rows: auto auto;
 }
 .nav-item {
+    font-family: "Story Script", system-ui, sans-serif;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 200%;
 }
 .site-nav {
     height: 100vh;
