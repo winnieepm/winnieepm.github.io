@@ -85,3 +85,30 @@ nav {
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0.75rem;
+    }
+    
+    .fullname {
+        font-size: 200%;
+    }
+    
+    main {
+        font-size: 95%;
+    }
+    
+    .site-nav {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    .nav-item {
+        font-size: 90%;
+    }
+    
+    .nav-item a {
+        padding: 0.4rem;
+    }
+}
