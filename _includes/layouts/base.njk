@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap" rel="stylesheet">
@@ -36,5 +37,86 @@
             {% include "partials/nav.njk" %}
         </nav>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.nav-item a');
+            const main = document.querySelector('main');
+            const contentSections = document.querySelectorAll('.content-section');
+            
+            // Dynamically wrap index content for animation
+            let indexContentWrapper = null;
+            const mainChildren = Array.from(main.children);
+            const nonSectionChildren = mainChildren.filter(function(child) {
+                return !child.classList.contains('content-section');
+            });
+            if (nonSectionChildren.length > 0) {
+                indexContentWrapper = document.createElement('div');
+                nonSectionChildren.forEach(function(child) {
+                    indexContentWrapper.appendChild(child);
+                });
+                main.insertBefore(indexContentWrapper, main.firstChild);
+            }
+            
+            function getCurrentVisibleContent() {
+                const targetSection = document.querySelector('.content-section:target');
+                if (targetSection) {
+                    return targetSection;
+                }
+                return indexContentWrapper;
+            }
+            
+            navLinks.forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetHash = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetHash);
+                    const currentContent = getCurrentVisibleContent();
+                    
+                    if (currentContent === targetSection) {
+                        return;
+                    }
+                    
+                    if (currentContent) {
+                        currentContent.classList.add('animate__animated', 'animate__zoomOut');
+                        
+                        setTimeout(function() {
+                            if (currentContent.classList.contains('content-section')) {
+                                currentContent.style.display = 'none';
+                            } else if (indexContentWrapper) {
+                                indexContentWrapper.style.display = 'none';
+                            }
+                            currentContent.classList.remove('animate__animated', 'animate__zoomOut');
+                            
+                            window.location.hash = targetHash;
+                            
+                            if (targetSection) {
+                                targetSection.style.display = 'block';
+                                setTimeout(function() {
+                                    targetSection.classList.add('animate__animated', 'animate__fadeIn');
+                                }, 10);
+                            }
+                        }, 750);
+                    } else {
+                        window.location.hash = targetHash;
+                        if (targetSection) {
+                            if (indexContentWrapper) indexContentWrapper.style.display = 'none';
+                            targetSection.style.display = 'block';
+                            setTimeout(function() {
+                                targetSection.classList.add('animate__animated', 'animate__fadeIn');
+                            }, 10);
+                        }
+                    }
+                });
+            });
+            
+            if (window.location.hash) {
+                const targetSection = document.querySelector(window.location.hash);
+                if (targetSection && indexContentWrapper) {
+                    indexContentWrapper.style.display = 'none';
+                }
+            }
+        });
+    </script>
 </body>
 </html>
