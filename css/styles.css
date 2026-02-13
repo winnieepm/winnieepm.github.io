@@ -51,15 +51,6 @@ nav {
     padding-left: 2em;
     max-width: 65%;
 }
-.content-section {
-    display: none;
-}
-.content-section:target {
-    display: block;
-}
-.content-section:target ~ .content-section {
-    display: none;
-}
 .fullname {
     font-family: "Fascinate Inline", system-ui, sans-serif;
     font-size: 425%;
