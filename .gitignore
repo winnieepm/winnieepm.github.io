@@ -2,9 +2,3 @@
 .DS_Store
 _site/
 node_modules/
-
-
-# blog build files 
-blog/
-blog/node_modules/
-blog/_site/

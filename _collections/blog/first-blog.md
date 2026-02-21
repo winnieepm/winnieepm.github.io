@@ -1,0 +1,1 @@
+saving dir structure for blog
