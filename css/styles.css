@@ -45,6 +45,12 @@ nav {
 
 /* IDs */
 
+main section h1 {
+    font-family: "Story Script", system-ui, sans-serif;
+    color: #8B3777;
+    margin-top: 2.5em;
+}
+
 /* classes */
 .content {
     padding-left: 2em;
