@@ -75,7 +75,7 @@ main section h1 {
     font-size: 200%;
 }
 
-#blogs {
+#blog-samples {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
