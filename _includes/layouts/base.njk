@@ -20,18 +20,20 @@
         {% block content %} 
             
             <section id="about" class="content-section"> 
-                {% renderFile "./about.md"  %}
+                {% renderFile "./about-anchor.md"  %}
             </section>
             <section id="projects" class="content-section">
-                {% renderFile "./projects.md"  %}
+                {% renderFile "./projects-anchor.md"  %}
                 {% include "_includes/partials/project-card.njk" %}
+                <a class="card-grid-url" src="#">View all blog projects...</a>
             </section>
             <section id="blogs" class="content-section">
-                {% renderFile "./blogs.md" %}
+                {% renderFile "./blogs-anchor.md" %}
                 {% include "_includes/partials/blog-card.njk"  %}
+                <a class="card-grid-url" src="#">View all blog posts...</a>
             </section>
             <section id="cv" class="content-section">
-                {% renderFile "./cv.md" %}
+                {% renderFile "./cv-anchor.md" %}
             </section>
         {% endblock %}
         </main>

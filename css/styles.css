@@ -7,6 +7,12 @@ a:active {
     color: aliceblue;
 }
 
+a.card-grid-url {
+    display: flex;
+    justify-content: right;
+    margin-top: 1em;
+}
+
 body {
     background-color: #d5c3ff;
     font-family: 'Jost', Tahoma, Geneva, Verdana, sans-serif;
