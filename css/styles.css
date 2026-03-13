@@ -11,9 +11,9 @@ a {
 a:active {
     color: aliceblue;
 }
-a:hover {
+/* a:hover {
     
-}
+} */
 
 a.card-grid-url {
     display: flex;
