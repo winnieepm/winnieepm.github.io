@@ -2,15 +2,18 @@
 
 
 <div id="blog-samples">
+    {% for post in collections.blog %}
     <div class="blog">
-            <img alt="octopus pictures" src="/public/images/photobooth.webp">
             <div class="blog-content">
-                <h3>SimpleBooth</h3>
-                <p>Super Simple Photobooth software written in Python for use with a Raspberry Pi.</p>
-                <a href="https://github.com/ammonshepherd/simplebooth">GitHub Link <span class="material-symbols-outlined">output</span></a>
+                <h3>{{ post.data.title }}</h3>
+                <p>{{ post.data.logline }}</p>
+                <a href="{{ post.data.permalink }}">Full blog link</a>
+
+                {# styles taken from https://github.com/ammonshepherd/simplebooth #}
             </div>
     </div>
-
+    {% endfor %}
+</div>
    
    
 
