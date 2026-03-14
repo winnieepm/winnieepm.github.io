@@ -5,7 +5,6 @@
                 <h3>{{ post.data.title }}</h3>
                 <p>{{ post.data.logline }}</p>
                 <a href="{{ post.url }}">Full blog link</a>
-
                 {# og styles taken from https://github.com/ammonshepherd/simplebooth #}
             </div>
     </div>
@@ -14,6 +13,6 @@
 
 {% for post in collections.blogs %}
 {% if loop.index > 1 %}
-<a class="card-grid-url" src="#">View all blog projects...</a>
+<a class="card-grid-url" src="/blogs/">View all blog projects...</a>
 {% endif %}
 {% endfor %}
