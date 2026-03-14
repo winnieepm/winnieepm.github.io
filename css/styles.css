@@ -57,9 +57,8 @@ nav {
     z-index: 1000;
 }
 
-/* IDs */
 
-main section h1 {
+ h1 {
     font-family: "Story Script", system-ui, sans-serif;
     color: #8B3777;
     margin-top: 2.5em;
@@ -87,6 +86,10 @@ main section h1 {
     font-family: "Story Script", system-ui, sans-serif;
     font-weight: bold;
     font-size: 200%;
+}
+.section-title {
+    margin-top: 1em;
+    font-size: 425%;
 }
 
 #blog-samples {
