@@ -17,7 +17,7 @@ a:active {
 
 a.card-grid-url {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     margin-top: 1em;
 }
 
@@ -125,7 +125,7 @@ main section h1 {
     padding: 0;
 }
 
-#project-grid {
+#projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;

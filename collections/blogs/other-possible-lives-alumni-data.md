@@ -1,7 +1,8 @@
 ---
 title: other possible lives in alumni data
-permalink: /other-possible-lives-in-alumni-data/
+layout: page.njk
 logline: Too many humanities PhDs still think they’re going to land a tenure-track faculty position in higher education. Scholars' Lab alumni prove that this is not the only life worth living.
+collection: blogs
 ---
 
 ## {{ title }}

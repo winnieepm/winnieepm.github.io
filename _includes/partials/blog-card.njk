@@ -1,20 +1,19 @@
- {# update to iterate over files in _collections/blog #}
-
-
 <div id="blog-samples">
-    {% for post in collections.blog %}
+    {% for post in collections.blogs %}
     <div class="blog">
             <div class="blog-content">
                 <h3>{{ post.data.title }}</h3>
                 <p>{{ post.data.logline }}</p>
-                <a href="{{ post.data.permalink }}">Full blog link</a>
+                <a href="{{ post.url }}">Full blog link</a>
 
-                {# styles taken from https://github.com/ammonshepherd/simplebooth #}
+                {# og styles taken from https://github.com/ammonshepherd/simplebooth #}
             </div>
     </div>
     {% endfor %}
 </div>
-   
-   
 
-    
+{% for post in collections.blogs %}
+{% if loop.index > 1 %}
+<a class="card-grid-url" src="#">View all blog projects...</a>
+{% endif %}
+{% endfor %}
