@@ -115,7 +115,7 @@ main section h1 {
 .blog:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.site-nav {
+.main-nav {
     height: 100vh;
     display: flex;
     flex-direction: column;

@@ -17,7 +17,7 @@
         {% block content %}{{ content | safe }}{% endblock %}
         </main>
         <nav>
-            {% include "partials/nav.njk" %}
+        {% block nav %}{% endblock%}
         </nav>
     </div>
 </body>

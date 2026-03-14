@@ -1,9 +1,13 @@
+{# HOME PAGE CONTENT #}
+
 {% extends "layouts/base.njk" %}
+
 {% block header %}
 <header>
     <h1 class="fullname"> <a href="index.html">{{ section }}</a></h1>
 </header>
 {% endblock %}
+
 {% block content %}
 <section id="about" class="content-section">
     {% renderFile "./about-anchor.md"  %}
@@ -16,9 +20,17 @@
 <section id="blogs" class="content-section">
     {% renderFile "./blogs-anchor.md" %}
     {% include "_includes/partials/blog-card.njk"  %}
-    {# <a class="card-grid-url" src="#">View all blog posts...</a> #}
 </section>
 <section id="cv" class="content-section">
     {% renderFile "./cv-anchor.md" %}
 </section>
+{% endblock %}
+
+{% block nav %}
+<ul class="main-nav">
+    <li class="nav-item"><a href="#about">about</a></li>
+    <li class="nav-item"><a href="#projects">projects</a></li>
+    <li class="nav-item"><a href="#blogs">blogs</a></li>
+    <li class="nav-item"><a href="#cv">c.v.</a></li>
+</ul>
 {% endblock %}
