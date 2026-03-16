@@ -11,7 +11,7 @@ a:active {
     color: aliceblue;
 }
 /* a:hover {
-  
+
 } */
 
 a.card-grid-url {
@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: 98vh;
     padding: 2%;
     padding-left: 10%;
@@ -39,23 +40,6 @@ li {
     margin: 0;
     padding: 0;
 }
-main {
-    grid-column: 1 / 2;
-    font-size: 125%;
-    padding-bottom: 80px;
-}
-nav {
-    grid-row: 1 / span 2;
-    grid-column: 2;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 30%;
-    z-index: 1000;
-}
-
 
  h1 {
     font-family: "Story Script", system-ui, sans-serif;
@@ -66,10 +50,7 @@ nav {
 }
 
 /* classes */
-.content {
-    padding-left: 2em;
-    max-width: 65%;
-}
+
 .fullname {
     font-family: "Fascinate Inline", system-ui, sans-serif;
     font-size: 425%;
@@ -78,11 +59,7 @@ nav {
 .fullname a:visited {
     color: #6229DB;
 }
-.layout {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto auto;
-}
+
 .nav-item {
     font-family: "Story Script", system-ui, sans-serif;
     font-weight: bold;
@@ -105,7 +82,7 @@ nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    gap: 20px; 
+    gap: 20px;
     margin-top: 3em;
 }
 .blog {
@@ -165,29 +142,56 @@ nav {
 .project-card-content {
     padding: 20px 16px;
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (min-width: 640px) {
+body {
+    flex-direction: row;
+}
+
+header,main {
+    width: 65%;
+}
+main {
+    grid-column: 1 / 2;
+    font-size: 125%;
+    padding-bottom: 80px;
+}
+nav {
+    grid-row: 1 / span 2;
+    grid-column: 2;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 30%;
+    z-index: 1000;
+}
+}
+
+/* @media screen and (max-width: 480px) {
     body {
         padding: 0.75rem;
     }
-    
+
     .fullname {
         font-size: 200%;
     }
-    
+
     main {
         font-size: 95%;
     }
-    
+
     .site-nav {
         flex-wrap: wrap;
         gap: 0.5rem;
     }
-    
+
     .nav-item {
         font-size: 90%;
     }
-    
+
     .nav-item a {
         padding: 0.4rem;
     }
-}
+} */
