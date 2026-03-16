@@ -1,8 +1,7 @@
 /* elements */
-:root {
-    --mellow-yellow: rgb(255, 217, 102);  
-    /* #FFD966; */
-}
+/* possible complement colors
+#FFEC98 (light gold)
+*/
 
 a {
     color: #8B3777;
@@ -12,7 +11,7 @@ a:active {
     color: aliceblue;
 }
 /* a:hover {
-    
+  
 } */
 
 a.card-grid-url {
@@ -88,6 +87,11 @@ nav {
     font-family: "Story Script", system-ui, sans-serif;
     font-weight: bold;
     font-size: 2.5em;
+}
+.nav-item a:hover {
+    background-color: #c0a2ff;
+    padding: .2em;
+    border-radius: 15px;
 }
 .section-title {
     margin-top: 1em;
