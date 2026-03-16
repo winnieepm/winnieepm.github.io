@@ -8,19 +8,14 @@
 </header>
 {% endblock %}
 
-{% block content %}
+{% block old_content %}
 <div>{{ current_tagline }}</div>
 <div class="professional-summ">{{ professional_summary }}</div>
-<section id="about" class="content-section">
-    {% renderFile "./about-anchor.md"  %}
-</section>
 <section id="projects" class="content-section">
-    {% renderFile "./projects-anchor.md"  %}
     {% include "_includes/partials/project-card.njk" %}
     {# <a class="card-grid-url" src="#">View all blog projects...</a> #}
 </section>
 <section id="blogs" class="content-section">
-    {% renderFile "./blogs-anchor.md" %}
     {% include "_includes/partials/blog-card.njk"  %}
 </section>
 <section id="cv" class="content-section">
@@ -30,9 +25,9 @@
 
 {% block nav %}
 <ul class="main-nav">
-    <li class="nav-item"><a href="#about">about</a></li>
-    <li class="nav-item"><a href="#projects">projects</a></li>
-    <li class="nav-item"><a href="#blogs">blogs</a></li>
+    <li class="nav-item"><a href="/about/">about</a></li>
+    <li class="nav-item"><a href="/projects/">projects</a></li>
+    <li class="nav-item"><a href="/blogs/">blogs</a></li>
     <li class="nav-item"><a href="#cv">c.v.</a></li>
 </ul>
 {% endblock %}
