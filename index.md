@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-section: winnie e. pérez martínez
+header: winnie e. pérez martínez
 title: home
 ---
 
