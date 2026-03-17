@@ -114,7 +114,7 @@ li {
     padding: 0;
 }
 
-#projects-grid {
+#projects-sample {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;

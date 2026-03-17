@@ -1,7 +1,9 @@
 ---
 title: DH Certificate Dossier
+layout: page.njk
+collection: projects
 ---
 
-## { title }
+## {{ title }}
 
 here a list of the DH-y activities I've worked on. 
