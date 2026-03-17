@@ -1,5 +1,5 @@
 ---
-layout: home.njk
+layout: base.njk
 header: winnie e. pérez martínez
 title: w. 
 ---
