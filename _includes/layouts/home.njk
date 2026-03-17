@@ -8,21 +8,6 @@
 </header>
 {% endblock %}
 
-{% block old_content %}
-<div>{{ current_tagline }}</div>
-<div class="professional-summ">{{ professional_summary }}</div>
-<section id="projects" class="content-section">
-    {% include "_includes/partials/project-card.njk" %}
-    {# <a class="card-grid-url" src="#">View all blog projects...</a> #}
-</section>
-<section id="blogs" class="content-section">
-    {% include "_includes/partials/blog-card.njk"  %}
-</section>
-<section id="cv" class="content-section">
-    {% renderFile "./cv-anchor.md" %}
-</section>
-{% endblock %}
-
 {% block nav %}
 <ul class="main-nav">
     <li class="nav-item"><a href="/about/">about</a></li>
