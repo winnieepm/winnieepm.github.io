@@ -50,15 +50,20 @@ li {
 }
 
 /* classes */
-
-.fullname {
+.initial a {
     font-family: "Fascinate Inline", system-ui, sans-serif;
-    font-size: 425%;
+    font-size: 4.5rem;
     color: #6229DB;
 }
-.fullname a:visited {
+
+.my-name a  {
+    font-family: "Fascinate Inline", system-ui, sans-serif;
+    font-size: 4.5rem;
     color: #6229DB;
 }
+/* .my-name a:visited {
+    color: #6229DB;
+} */
 
 .nav-item {
     font-family: "Story Script", system-ui, sans-serif;
