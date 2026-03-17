@@ -17,7 +17,12 @@
         {% block content %}{{ content | safe }}{% endblock %}
         </main>
         <nav>
-        {% block nav %}{% endblock%}
+            <ul class="main-nav">
+                <li class="nav-item{% if page.url.startsWith('/about/') %} active{% endif %}"><a href="/about/">about</a></li>
+                <li class="nav-item{% if page.url.startsWith('/projects/') %} active{% endif %}"><a href="/projects/">projects</a></li>
+                <li class="nav-item{% if page.url.startsWith('/blogs/') %} active{% endif %}"><a href="/blogs/">blogs</a></li>
+                <li class="nav-item"><a href="#cv">c.v.</a></li>
+            </ul>
         </nav>
     </div>
 </body>

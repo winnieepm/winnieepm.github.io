@@ -68,14 +68,16 @@ li {
     padding: .2em;
 }
 
-.nav-item a:current { 
+.nav-item.active a {
     background-color: #c0a2ff;
     border-radius: 15px;
+    padding: .2em;
 }
 .professional-summ {
     margin-top: .5em;
 }
 .section-title {
+    font-family: "Story Script", system-ui, sans-serif;
     margin-top: 1em;
     font-size: 425%;
 }
