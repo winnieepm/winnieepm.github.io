@@ -1,0 +1,18 @@
+{% if page.url == "/home/"%}
+<header>
+    <h1 class="fullname"> <a href="/home/">winnie e. pérez martínez</a></h1>
+</header>
+
+{% elif collection %}
+<header>
+    <h1 class="fullname"><a href="/home/">w.</a></h1>
+</header>
+<header>
+    <h1 class="section-title"><a href="/{{ collection }}/">{{ collection }}</a></h1>
+</header>
+
+{% else %}
+<header>
+    <h1 class="fullname"><a href="/home/">w.</a></h1>
+</header>
+{% endif %}

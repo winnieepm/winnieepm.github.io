@@ -12,7 +12,7 @@
 
 <body class="{{ page.url | replace('/', ' ') | trim }}">
     <div class="layout">
-        {% block header %}{% endblock %}
+        {% include "partials/header.njk" %}
        <main>
         {% block content %}{{ content | safe }}{% endblock %}
         </main>
