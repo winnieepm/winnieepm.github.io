@@ -8,7 +8,7 @@ a {
     text-decoration: none;
 }
 a:active {
-    color: aliceblue;
+    color: #8a54ff;
 }
 /* a:hover {
 
@@ -41,14 +41,6 @@ li {
     padding: 0;
 }
 
- h1 {
-    font-family: "Story Script", system-ui, sans-serif;
-    color: #8B3777;
-    /* margin-top: 2.5em; */
-    font-size: 2.75em;
-
-}
-
 /* classes */
 .initial a {
     font-family: "Fascinate Inline", system-ui, sans-serif;
@@ -68,11 +60,16 @@ li {
 .nav-item {
     font-family: "Story Script", system-ui, sans-serif;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 3em;
 }
-.nav-item a:hover {
-    background-color: #c0a2ff;
+.nav-item a:hover, a:active {
+    /* background-color: #c0a2ff; */
+    text-decoration: underline;
     padding: .2em;
+}
+
+.nav-item a:current { 
+    background-color: #c0a2ff;
     border-radius: 15px;
 }
 .professional-summ {
