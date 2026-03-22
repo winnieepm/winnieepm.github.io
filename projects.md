@@ -4,6 +4,6 @@ layout: collection-home.njk
 collection: projects
 ---
 
-there'll be a grid of tiles with project titles here. eventually, i'll turn them into cards with explanations, like figma thumbnails, each linking to a dedicated project personal record page, or the projects own page.
+<!-- there'll be a grid of tiles with project titles here. eventually, i'll turn them into cards with explanations, like figma thumbnails, each linking to a dedicated project personal record page, or the projects own page. -->
 
 [dh dossier](/projects/dh-portfolio/)
