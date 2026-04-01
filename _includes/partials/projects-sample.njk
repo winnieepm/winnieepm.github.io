@@ -1,49 +1,16 @@
-<div id="projects-sample">
-    {% for project in collections.projects %}
-    <div class="blogs">
-            <div class="project-content">
+    <div class="collection-container">
+        {% for project in collections.projects %}
+            <div class="project thumbnail">
                 <h3>{{ project.data.title }}</h3>
                 <p>{{ project.data.logline }}</p>
-                <a href="{{ project.url }}">Full blog link</a>
+                <a href="{{ project.url }}">Full project link</a>
                 <!--og styles taken from https://github.com/ammonshepherd/simplebooth -->
             </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-</div>
 
 {% for project in collections.projects %}
 {% if loop.index > 1 %}
 <a class="card-grid-url" src="/blogs/">View all blog projects...</a>
 {% endif %}
 {% endfor %}
-
-<!-- STATIC LAYOUT + DESIGN
-<div id="projects-sample">
-        <div class="project-card">
-                <div class="project-card-header"></div>
-                <div class="project-card-content">
-                    <h3>Project One</h3>
-                    <p>A short description of this project and what it does or explores.</p>
-                    <a href="#">View Project <span class="material-symbols-outlined">output</span></a>
-                    <div class="project-card-glow"></div>
-                </div>
-        </div>
-
-    <div class="project-card">
-        <div class="project-card-header"></div>
-        <div class="project-card-content">
-            <h3>Project Two</h3>
-            <p>A short description of this project and what it does or explores.</p>
-            <a href="#">View Project <span class="material-symbols-outlined">output</span></a>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <div class="project-card-header"></div>
-        <div class="project-card-content">
-            <h3>Project Three</h3>
-            <p>A short description of this project and what it does or explores.</p>
-            <a href="#">View Project <span class="material-symbols-outlined">output</span></a>
-        </div>
-    </div>
-</div> -->
