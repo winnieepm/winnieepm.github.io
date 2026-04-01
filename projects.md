@@ -4,6 +4,8 @@ layout: collection-home.njk
 collection: projects
 ---
 
-<!-- there'll be a grid of tiles with project titles here. eventually, i'll turn them into cards with explanations, like figma thumbnails, each linking to a dedicated project personal record page, or the projects own page. -->
+Here, I'm working retroactively to trace the projects I've worked on so far. 
 
 [dh dossier](/projects/dh-portfolio/)
+
+[slab alumni data](/projects/slab-alumni-data/)
