@@ -1,7 +1,7 @@
 ---
-title: other possible lives in alumni data
+title: at last, a dataset of alumni job placements 
 layout: page.njk
-logline: Too many humanities PhDs still think they’re going to land a tenure-track faculty position in higher education. Scholars' Lab alumni prove that this is not the only life worth living.
+logline: Small and fuzzy information juiciest yields the juiciest details. All semester, I've been working on organizing and cataloguing this data in a way that can be useful for the creation of a future internal database.
 collection: blogs
 ---
 
