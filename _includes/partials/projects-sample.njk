@@ -1,3 +1,4 @@
+<div class="view-all-items">
     <div class="collection-container">
         {% for project in collections.projects %}
             <div class="project thumbnail">
@@ -8,9 +9,5 @@
             </div>
         {% endfor %}
     </div>
-
-{% for project in collections.projects %}
-{% if loop.index > 1 %}
-<a class="card-grid-url" src="/blogs/">View all blog projects...</a>
-{% endif %}
-{% endfor %}
+    <a class="view-all-items" href="/projects/">View all projects...</a>
+</div>

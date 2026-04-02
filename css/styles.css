@@ -62,6 +62,12 @@ h1 {
     50% {transform: translateY(-1.25em);}
     100% {transform: translateY(0);}
 }
+.view-all-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+}
 
 
 
