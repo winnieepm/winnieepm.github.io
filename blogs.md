@@ -4,7 +4,7 @@ layout: collection-home.njk
 collection: blogs
 ---
 
-This is the archive of the blogs I've published so far.
+An archive of blogs I've published.
 
 
 <ul>

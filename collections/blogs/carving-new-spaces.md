@@ -9,5 +9,5 @@ collection: blogs
 ## {{ title }}
 ###### {{ date }}
 
-[Crossposted in the Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/other-possible-lives-in-alumni-data//). 
+[Crossposted in the Scholars' Lab blog](hhttps://scholarslab.lib.virginia.edu/blog/carving-new-spaces/). 
 
