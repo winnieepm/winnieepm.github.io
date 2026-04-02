@@ -1,9 +1,14 @@
 ---
 title: Scholars' Lab Alumni Data
 layout: page.njk
+logline: data data data
 collection: projects
 ---
 
 ## {{ title }}
 
-here a list of the DH-y activities I've worked on. 
+The Scholars' Lab has awarded 122 fellowships to UVA graduate students interested in Digital Humanities, and 95 of them are now full-time employees, but there is currently no public demographic data available about their career pathways. 
+
+In fall 2025, I updated the internal alumni records for the Scholars' Lab as part of my PhD Plus/Scholars' Lab internship tasks. This spring, I went back to the alumni records to improve data cataloguing and develop a web visualization to display on the [Scholars' Lab website](https://scholarslab.lib.virginia.edu/) to promote their placement outcomes. 
+
+Though the final visualization does not require difficult technical implementation, developing the dataset and data model has been a complex endeavor involving multiple close conversations with experts across the lab. 

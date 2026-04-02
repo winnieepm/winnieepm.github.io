@@ -1,12 +1,15 @@
 ---
-title: at last, a dataset of alumni job placements 
-date: 2025-04-01
+title: other possible lives in alumni data
+date: 2025-11-04
 layout: page.njk
-logline: Small and fuzzy information juiciest yields the juiciest details. All semester, I've been working on organizing and cataloguing this data in a way that can be useful for the creation of a future internal database.
+logline: 
 collection: blogs
 ---
 
 ## {{ title }}
+###### {{ date }}
+
+[Crossposted in the Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/other-possible-lives-in-alumni-data//). 
 
 It’s 2025 and too many of those enrolled in humanities PhD programs[^1] still think they’re going to land a tenure-track faculty position in higher education. Yes, Faculty[^2] members have been slowly facing the crisis of the academic job market, but even the most supportive ones are strapped for the resources, field knowledge, and the time needed to effectively help PhDs navigate this landscape. Graduate curricula rarely includes comprehensive career training or coaching. This task falls almost entirely on faculty advisors, many of which barely have time to keep up with their own work. How will they have time to educate their students about non-faculty careers? What happens if the tenured advisor isn’t even interested in engaging with the core issues of this challenging landscape? Who is going to support the PhD worker then?
 
@@ -26,4 +29,4 @@ Curators, consultants, artists, freelancers, programmers, developers, faculty, t
 
 [^2]:  Faculty vs faculty conversation with a dear friend. 
 
-[^3]:  I include myself, as a 6th-year PhD candidate in Spanish, Scholars’ Lab alumna and intern, managing editor. An insular Puerto Rican female that has now spent more than 10 years in higher education as a first-gen student and worker. 
+[^3]:  I include myself, as a 6th-year PhD candidate in Spanish, Scholars’ Lab alumna and intern, managing editor. An insular Puerto Rican female that has now spent more than 10 years in higher education as a first-gen student and worker.
