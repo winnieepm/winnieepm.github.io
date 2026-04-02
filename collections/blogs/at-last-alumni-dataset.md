@@ -1,6 +1,6 @@
 ---
 title: at last, a dataset of alumni job placements 
-date: 2025-04-01
+date: 2026-04-01
 layout: page.njk
 logline: Small and fuzzy information juiciest yields the juiciest details. All semester, I've been working on organizing and cataloguing this data in a way that can be useful for the creation of a future internal database.
 collection: blogs
