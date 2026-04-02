@@ -1,6 +1,6 @@
 <div class="view-all-items">
     <div class="collection-container">
-    {% assign blogsToShow = collections.blogs | limit: 4 %}
+    {% assign blogsToShow = collections.blogs | reverse | limit: 4 %}
     {%- for post in blogsToShow -%}
         <div class="blog thumbnail">
             <h3>{{ post.data.title }}</h3>
