@@ -1,13 +1,13 @@
 <div class="view-all-items">
     <div class="collection-container">
     {% assign blogsToShow = collections.blogs | limit: 4 %}
-    {% for post in blogsToShow %}
+    {%- for post in blogsToShow -%}
         <div class="blog thumbnail">
             <h3>{{ post.data.title }}</h3>
             <p>{{ post.data.logline }}</p>
             <a href="{{ post.url }}">Full blog link</a>
         </div>
-    {% endfor %}
+    {%- endfor -%}
     </div>
     <a class="view-all-items" href="/blogs/">View all blogs...</a>
 </div>
