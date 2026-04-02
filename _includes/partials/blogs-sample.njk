@@ -1,16 +1,11 @@
     <div class="collection-container">
-        {% for post in collections.blogs %}
-            <div class="blog thumbnail">
-                <h3>{{ post.data.title }}</h3>
-                <p>{{ post.data.logline }}</p>
-                <a href="{{ post.url }}">Full blog link</a>
-                <!--og styles taken from https://github.com/ammonshepherd/simplebooth -->
-            </div>
-         {% endfor %}
+    {%- assign blogsToShow = collections.blogs | limit: 4 %}
+    {%- for post in blogsToShow %}
+        <div class="blog thumbnail">
+            <h3>{{ post.data.title }}</h3>
+            <p>{{ post.data.logline }}</p>
+            <a href="{{ post.url }}">Full blog link</a>
+        </div>
+    {% endfor %}
+        <a class="card-grid-url" src="blogs/">View all blogs...</a>
     </div>
-
-{% for post in collections.blogs %}
-{% if loop.index > 1 %}
-<a class="card-grid-url" src="/blogs/">View all blog projects...</a>
-{% endif %}
-{% endfor %}
