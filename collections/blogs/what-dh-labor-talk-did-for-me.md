@@ -1,5 +1,5 @@
 ---
-title: other possible lives in alumni data
+title: what dh labor talk did for me
 date: 2025-11-04
 layout: page.njk
 logline: 
