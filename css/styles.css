@@ -19,17 +19,20 @@ h1 {
 }
 
 /* ---- <<HOME PAGE>> PROJECTS & BLOGS GRID LAYOUT---- */
+ 
 .collection-container {
     display: flex;
-    justify-content: flex-start;
-    column-gap: .5em;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .65em;
 }
 .thumbnail {
-    /* add shadows to create "card" effect */
     border-radius: 8px;
-    flex: 0 1 calc(50% - 14px);
+    flex: 0 1 calc(40% - 10px);
     padding: 20px 16px;
     overflow: hidden;
+    margin-top: .65em;
+
 }
 /* add border and hover styles to blog items */
 .blog {
@@ -50,10 +53,14 @@ h1 {
     border: 1.5px solid rgba(98, 41, 219, .64);
     box-shadow: 0 0 12px 2px rgba(98, 41, 219, 0.4), 0 0 28px 4px rgba(139, 55, 119, 0.2);
     transition: transform 0.2s, box-shadow 0.2s;
-    overflow: hidden;
 }
 .project:hover {
     animation: slide 0.75s ease-in;
+}
+@keyframes slide {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-1.25em);}
+    100% {transform: translateY(0);}
 }
 
 
@@ -128,11 +135,7 @@ header {
     margin: 0;
     padding: 0;
 }
-@keyframes slide {
-    0% {transform: translateY(0);}
-    50% {transform: translateY(-1.25em);}
-    100% {transform: translateY(0);}
-}
+
 
 @media screen and (min-width: 640px) {
 body {
