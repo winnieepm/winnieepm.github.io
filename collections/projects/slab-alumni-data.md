@@ -1,7 +1,7 @@
 ---
 title: Scholars' Lab Alumni Data
 layout: page.njk
-logline: data data data
+logline: What are Scholars' Lab alumni doing now? Follow my journey updating the placement records past students and developing a public representationg of the data. 
 collection: projects
 ---
 
