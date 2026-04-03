@@ -7,6 +7,7 @@ collection: blogs
 ---
 
 ## {{ title }}
+
 ###### {{ date }}
 
 [Crossposted in the Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/what-dh-labor-talk-did-for-me/). 

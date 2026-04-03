@@ -6,6 +6,6 @@ collection: projects
 
 Here, I'm working retroactively on tracing the projects I've worked on so far. 
 
-[dh dossier](/projects/dh-portfolio/)
+[dh certificate dossier](/projects/dh-portfolio/)
 
-[slab alumni data](/projects/slab-alumni-data/)
+[scholars' lab | alumni data](/projects/slab-alumni-data/)
