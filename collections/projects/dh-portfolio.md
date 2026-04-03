@@ -6,5 +6,5 @@ collection: projects
 ---
 
 ## {{ title }}
+A retroactive annotated list of DH-related activities I attended over my time at UVA, at least the ones I remember. Prepared in compliance with the requirements for the Digital Humanities Graduate Certificate at the University of Virginia (UVA).
 
-here a list of the DH-y activities I've worked on. 
