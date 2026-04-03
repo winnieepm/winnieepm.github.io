@@ -2,7 +2,7 @@
 title: what dh labor talk did for me
 date: 2025-11-04
 layout: page.njk
-logline: 
+logline: How I understood myself a worker thanks to my work at work at the Scholars' Lab.
 collection: blogs
 ---
 
