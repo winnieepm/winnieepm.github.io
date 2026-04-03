@@ -4,6 +4,7 @@ module.exports = async function(eleventyConfig) {
     
     eleventyConfig.setTemplateFormats(["njk", "md", "html"]);
     eleventyConfig.addPassthroughCopy("css/styles.css");
+    eleventyConfig.addPassthroughCopy("assets/*.pdf");
     eleventyConfig.addFilter("limit", (array, n) => (Array.isArray(array) ? array : []).slice(0, n));
     eleventyConfig.addFilter("postDate", (dateObj) => {
       return dateObj.toLocaleString(undefined, {
