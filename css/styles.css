@@ -7,6 +7,11 @@ body {
     padding: 2%;
     padding-left: 10%;
 }
+
+h1 {
+    color: #6229DB;
+}
+
 a {
     color: #8B3777;
     text-decoration: none;
@@ -14,8 +19,13 @@ a {
 a:active {
     color: #8a54ff;
 }
-h1 {
-    color: #6229DB;
+
+img {
+    border: 2px solid white;
+   border-radius: 10px;
+   display: flex;
+   justify-self: center;
+   width: 70%;
 }
 
 /* ---- <<HOME PAGE>> PROJECTS & BLOGS GRID LAYOUT---- */
