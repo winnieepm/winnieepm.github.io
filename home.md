@@ -10,8 +10,8 @@ I'm a PhD-trained digital humanist focusing on design and infrastructure studies
 
 # selected work
 
-{% include "_includes/partials/projects-sample.njk" %}
+{% include "partials/projects-sample.njk" %}
 
 # selected writing 
 
-{% include "_includes/partials/blogs-sample.njk" %}
+{% include "partials/blogs-sample.njk" %}
