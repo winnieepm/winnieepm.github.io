@@ -28,4 +28,7 @@ Shannon Library 308
 #### Event Summary
 TBW
 
+#### Resources
+https://cal.lib.virginia.edu/event/16256206
+
  -->
