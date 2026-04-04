@@ -1,15 +1,14 @@
 <div class="view-all-items">
     <div class="collection-container">
-
-        {% assign projectsToShow = collections.projects | limit: 4 %}
-        {%- for project in projectsToShow -%}
-            <div class="project thumbnail">
-                <h3>{{ project.data.title }}</h3>
-                <p>{{ project.data.logline }}</p>
-                <a href="{{ project.url }}">Full project link</a>
-                <!--og styles taken from https://ammonshepherd.github.io/ -->
-            </div>
-        {%- endfor -%}
+    {%- assign projectsToShow = collections.projects | limit: 4 -%}
+    {%- for project in projectsToShow -%}
+        <div class="project thumbnail">
+            <h3>{{ project.data.title }}</h3>
+            <p>{{ project.data.logline }}</p>
+            <a href="{{ project.url }}">Full project link</a>
+            <!--og styles taken from https://ammonshepherd.github.io/ -->
+        </div>
+    {%- endfor -%}
+        <a class="view-all-link" href="/projects/">View all projects...</a>
     </div>
-    <a class="view-all-items" href="/projects/">View all projects...</a>
 </div>
