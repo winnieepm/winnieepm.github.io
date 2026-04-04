@@ -72,7 +72,7 @@ img {
     100% {transform: translateY(0);}
 }
 /* styles "view all" link displaying after collection items in home */
-.view-all-items {
+.view-all-link {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
