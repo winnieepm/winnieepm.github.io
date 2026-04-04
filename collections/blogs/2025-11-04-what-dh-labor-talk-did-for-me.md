@@ -11,6 +11,7 @@ collection: blogs
 ###### {{ date }}
 
 [Crossposted in the Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/what-dh-labor-talk-did-for-me/). 
+
 Graduate ~~students~~  workers are a lower class form of contingent labor in higher education, although a privileged one. Grad workers supply essential labor to universities for a fraction of a faculty/lecturer salary. As a direct consequence of their contingent status, graduate professional development is  rarely a priority in the daily operations of a doctoral academic curriculum. Institutional needs always come first.
 
 Many grad workers come into PhD programs unaware of this dynamic and how it decisively shapes our professional outlook during and after the program. Others, like me, have been exposed to its reality through sour personal experiences and conversations with mentors, colleagues.  Even so, I know we remain at least partially in the dark about the ramifications that being cheap, contingent workers have on our role and responsibilities as workers. We graduate without fully realizing the extent to which being employees in a knowledge company affects our ability to afford basic necessities, like rent and food. Partly, this happens because cloaking the commodification of higher education has become part and parcel of academic culture.
