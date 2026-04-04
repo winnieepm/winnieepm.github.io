@@ -14,4 +14,5 @@ One of the tasks for my PhD Plus/Scholars' Lab internship in fall 2025 involved 
 
 My initial goal consisted in cleaning and updating these records, or dataset, to create simple visualizations for a meeting with Shannon Library's Advancement Team. However, researching the life choices of lab alumni, as one myself, inspired me to continue working with this dataset in spring 2026. This time, my focus is to improve the cataloguing labels and develop a representation of anonymous job placement data for the [Scholars' Lab website](https://scholarslab.lib.virginia.edu/). The project is currently is progress. 
 
-![Screenshot of 5 job values eachs in two columns of the Scholars' Lab alumni spreadsheet.](/assets/images/slab-alumni-jobs-0.png)
+
+{% image "assets/images/slab-alumni-jobs-0.png", "A forest path", "Taken in the Blue Ridge, 2024" %}
