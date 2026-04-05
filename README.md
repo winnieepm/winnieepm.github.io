@@ -1,1 +1,1 @@
-working on a personal site. 
+my personal site. i built it brick by brick.
