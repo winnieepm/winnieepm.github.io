@@ -42,7 +42,6 @@ module.exports = async function(eleventyConfig) {
 
 
     return {
-    pathPrefix: "/winnieepm.github.io/",
     dir: {
       input: ".", // root directory is input    
       includes: "_includes", // _includes contains layouts + partials
