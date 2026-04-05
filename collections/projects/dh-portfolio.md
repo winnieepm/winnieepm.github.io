@@ -3,10 +3,15 @@ title: DH Certificate Dossier
 layout: page.njk
 logline: A list of the training events I've completed to receive the DH Graduate Certificate Program at UVA.
 collection: projects
+lastModified: April 05, 2026 9:38am
+tags:   
+- inProgress
 ---
 
 # {{ title }}
-An in-progress retroactive and annotated list of DH-related activities I attended over my time at UVA, or at least the ones I remember. Prepared in compliance with the requirements for the Digital Humanities Graduate Certificate at the University of Virginia (UVA).
+An in-progress record of coursework, work, events, and trainings attended to complete the Digital Humanities Graduate Certificate Program at the University of Virginia (UVA). These records are being prepared to comply with the final requirements to receive the certificate. 
+
+Last modified: {{ lastModified }}
 
 ---
 ### Coursework

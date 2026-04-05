@@ -2,7 +2,7 @@
 title: I Respectfully Refuse to be a Teacher
 date: 2024-10-24
 layout: page.njk
-logline: 
+logline: Reflecting on the different meanings of teaching in higher ed, and my relationship to them. 
 collection: blogs
 ---
 
