@@ -1,3 +1,10 @@
-# root
+# always off
 .DS_Store
-node_modules/
+node_modules
+
+
+# dev files not for deploy
+includes
+assets
+css
+
