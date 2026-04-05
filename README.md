@@ -1,1 +1,1 @@
-my personal site. i built it brick by brick.
+the branch where i deploy my personal site.
