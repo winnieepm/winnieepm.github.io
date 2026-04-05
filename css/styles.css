@@ -37,7 +37,40 @@ a:active {
 }
 
 
-/* ---- <<HOME PAGE>> PROJECTS & BLOGS GRID LAYOUT---- */
+/* ==== NAVIGATION STYLES ==== */
+.nav-item {
+    font-family: "Story Script", system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+.nav-item a:hover, a:active {
+    background-color: #c0a2ff;
+    text-decoration: underline;
+    padding: .2em;
+}
+
+.nav-item.active a {
+    background-color: #c0a2ff;
+    border-radius: 15px;
+    padding: .2em;
+}
+.main-nav {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+.main-nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ==== <<HOME PAGE>> PROJECTS & BLOGS GRID LAYOUT ==== */
 .collection-container {
     display: flex;
     flex-wrap: wrap;
@@ -88,29 +121,7 @@ a:active {
     margin: 1rem;
 } */
 
-
-
-
-
-
-
-/* UNORGANIZED STYLES BELOW */
-/* a.thumbnail {
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
-} */
-
-header {
-    grid-column: 1 / 2;
-}
-.main-nav li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* classes */
+/* unorg styles */
 .initial a {
     font-family: "Fascinate Inline", system-ui, sans-serif;
     font-size: 4.5rem;
@@ -121,26 +132,7 @@ header {
     font-size: 4.5rem;
     color: #6229DB;
 }
-/* .my-name a:visited {
-    color: #6229DB;
-} */
 
-.nav-item {
-    font-family: "Story Script", system-ui, sans-serif;
-    font-weight: bold;
-    font-size: 3em;
-}
-.nav-item a:hover, a:active {
-    background-color: #c0a2ff;
-    text-decoration: underline;
-    padding: .2em;
-}
-
-.nav-item.active a {
-    background-color: #c0a2ff;
-    border-radius: 15px;
-    padding: .2em;
-}
 .professional-summ {
     margin-top: .5em;
 }
@@ -150,22 +142,26 @@ header {
     font-size: 425%;
 }
 
-.main-nav {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
+/* ====  SIZE RESPONSIVE STYLES ==== */
+
+/* for mobile screens */
+@media screen and (max-width: 600px) {
+    body {
+    /* flex-direction: row; */
+    padding: 2rem;
+}
+    .collection-container {
+        flex-direction: column;
+        max-width: 70vh;
+        min-width: none;
+        /* flex-wrap: wrap; */
+    }
 }
 
+/* add styles to fix awkward transition between laptop and mobile sizes */
 
+/* for laptop computer screens */
 @media screen and (min-width: 640px) {
-body {
-    flex-direction: row;
-}
-
 header,main {
     width: 65%;
 }
@@ -186,12 +182,16 @@ nav {
 }
 }
 
-
-@media screen and (max-width: 700px) {
-    .collection-container {
-        flex-direction: column;
-        max-width: 70vh;
-        min-width: none;
-        /* flex-wrap: wrap; */
-    }
-}
+/* i think none of this is doing anything anymore. */
+/* header {
+    grid-column: 1 / 2;
+} */
+/* UNORGANIZED STYLES BELOW */
+/* a.thumbnail {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+} */
+/* .my-name a:visited {
+    color: #6229DB;
+} */
