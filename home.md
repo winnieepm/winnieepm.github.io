@@ -8,6 +8,8 @@ My craft is asking difficult questions. I believe community-making and kinship d
 
 I'm a PhD-trained digital humanist focusing on design and infrastructure studies, experienced in higher ed work settings, communication, and teaching. Right now, I’m completing a cultural studies PhD in Spanish while working for the [Scholars' Lab](https://scholarslab.lib.virginia.edu/) in Shannon Library at the University of Virginia.
 
+{% include "partials/about-site.njk" %}
+
 # selected work
 
 {% include "partials/projects-sample.njk" %}
