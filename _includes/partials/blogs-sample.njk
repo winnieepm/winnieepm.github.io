@@ -1,4 +1,4 @@
-<div class="view-all-items">
+<section class="view-all-items">
     <div class="collection-container">
     {% assign blogsToShow = collections.blogs | reverse | limit: 4 %}
     {%- for post in blogsToShow -%}
@@ -10,4 +10,4 @@
     {%- endfor -%}
         <a class="view-all-link" href="/blogs/">View all blogs...</a>
     </div>
-</div>
+</section>

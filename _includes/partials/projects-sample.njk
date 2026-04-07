@@ -1,4 +1,4 @@
-<div class="view-all-items">
+<section class="view-all-items">
     <div class="collection-container">
     {%- assign projectsToShow = collections.projects | limit: 4 -%}
     {%- for project in projectsToShow -%}
@@ -11,4 +11,4 @@
     {%- endfor -%}
         <a class="view-all-link" href="/projects/">View all projects...</a>
     </div>
-</div>
+</section>
