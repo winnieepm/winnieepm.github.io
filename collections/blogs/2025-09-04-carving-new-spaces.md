@@ -4,6 +4,8 @@ date: 2025-09-04
 layout: page.njk
 logline: A reflection on the professional spaces available to grad students. The inaugural blog post for my PhD+/Scholars' Lab internship in fall 2025.
 collection: blogs
+tags:
+    -crossPosted
 ---
 
 ## {{ title }}

@@ -4,6 +4,8 @@ date: 2025-12-08
 layout: page.njk
 logline: Too many humanities PhDs still think they’re going to land a tenure-track faculty position in higher education. Scholars' Lab alumni prove that this is not the only life worth living.
 collection: blogs
+tags: 
+    -crossPosted
 ---
 
 ## {{ title }}
