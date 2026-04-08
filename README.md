@@ -1,6 +1,6 @@
 my personal site. i built it brick by brick. this is the branch where i make changes. 
 
-## How It Works
+## How It's Made
 I use [11ty](https://www.11ty.dev) to develop it and [GitHub Pages](https://docs.github.com/en/pages) to host it free of charge. The repo has two main active branches `main` and `deploy`. In the first, I work on making changes and local testing while the `deploy` branch simply hosts a copy of the `_site/` generated in final production and serves it through GitHub.
 
 ## Repository Map 
