@@ -3,6 +3,7 @@ date: 2026-04-08
 layout: page.njk
 slug: breadth-and-depth-a-self-centered-dialectic
 title: "breadth and depth, a self-centered dialectic"
+logline: Revising the old breadth vs. depth debate in DH with recent personal insights. 
 tags:
     -crossPosted
 ---
