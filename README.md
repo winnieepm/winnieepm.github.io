@@ -10,7 +10,6 @@ I use [11ty](https://www.11ty.dev) to develop it and [GitHub Pages](https://docs
   |--📁 blogs/ <br>
   |--📁 projects/ <br>
 📁 css/<br>
-📁 layouts/<br>
 📁 _includes/<br>
   |-- 📁 layouts/<br>
   |-- 📁 partials/<br>
