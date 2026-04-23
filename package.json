@@ -6,14 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx @11ty/eleventy --watch --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=winnieepm"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/winnieepm/winnieepm.github.io.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "winnie e. pérez martínez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/winnieepm/winnieepm.github.io/issues"
