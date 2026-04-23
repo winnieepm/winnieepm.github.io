@@ -13,14 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: {node-version: 20}
-        cache: npm
-      - run: npm ci build-ghpages
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
       - uses: actions/configure-pages@v5
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
-        path: ./_site
+          path: ./_site
         
   deploy:
     needs: build-and-deploy
