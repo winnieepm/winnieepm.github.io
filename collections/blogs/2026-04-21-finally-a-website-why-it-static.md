@@ -11,8 +11,7 @@ tags:
 ## {{ title }}
 ###### {{ date }}
 
-I. Have. A. Website.
-✨ [https://winnieepm.github.io/](https://winnieepm.github.io/) ✨
+I. Have. A. Website. ✨ [https://winnieepm.github.io/](https://winnieepm.github.io/) ✨
 
 As this academic year is coming to an end, I don’t have a dissertation to defend yet, but I did publish a public website freely hosted on GitHub Pages—it’s been three years in the making. What took so long, you ask? A combination of reasons, with two that stand out. One, I couldn’t make up my mind about the method for making it or the design. Too many choices, possibilities, tools to try, strong opinions, use-cases. Two, I chose to code my own website, and self-learning coding while you’re a full-time doctoral student in the humanities brings its own significant systemic and personal challenges: there’s no reward for the quirky extra major, at least not immediately. So, why do it at all?
 
