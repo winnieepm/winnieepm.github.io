@@ -6,6 +6,7 @@ title: "finally, a website, but why is it static?"
 logline: It took three years, but now I have a live static website that I made myself.
 tags:
     -crossPosted
+    -siteUpdate
 ---
 
 ## {{ title }}
