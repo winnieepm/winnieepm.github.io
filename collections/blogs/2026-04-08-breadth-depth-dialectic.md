@@ -28,7 +28,7 @@ And yet, over time, I have found myself going back to specific projects, questio
 
 <picture style="display:block; margin:auto; width:85%;">
     <img src="/assets/images/2026-04-08-breadth-depth-axes.jpg" style="width:70%; height:auto; border-radius: 10px;" alt="A two-axis coordinate plane representing the intersection of breadth and depth in DH.">
-    <figcaption>Figure 1. A simple diagram of breadth and depth as perpendicular intersecting axes.</figcaption>
+    <figcaption>Figure 1. Diagram I made of breadth and depth as perpendicular intersecting axes.</figcaption>
 </picture>
 
 
