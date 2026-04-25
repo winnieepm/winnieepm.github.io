@@ -1,43 +1,5 @@
-# name: Deploy
-# on:
-#   push:
-#     branches: [main]
-
-# concurrency: 
-#   group: pages
-#   cancel-in-progress: true
-
-# jobs:
-#   build-and-deploy:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v4
-#       - uses: actions/setup-node@v4
-#         with:
-#           node-version: 20
-#           cache: npm
-#       - run: npm ci
-#       - uses: actions/configure-pages@v5
-#       - run: npm run build
-#       - uses: actions/upload-pages-artifact@v3
-#         with:
-#           path: ./_site
-        
-#   deploy:
-#     needs: build-and-deploy
-#     runs-on: ubuntu-latest
-#     permissions:
-#           pages: write
-#           id-token: write
-#     environment: 
-#       name: github-pages
-#       url: ${{ steps.deploy.outputs.page_url }}
-#     steps: 
-#       - uses: actions/deploy-pages@v4
-#         id: deploy
-
-
-        # If you’d like to deploy this project to GitHub pages:
+# SAMPLE YAML file featured in 11ty docs. 
+# If you’d like to deploy this project to GitHub pages:
 #
 # 1. Remove the .sample file extension from this file so it ends with `.yml`
 #				e.g. `gh-pages.yml`
@@ -56,7 +18,7 @@
 #				e.g.  "build-ghpages": "npx @11ty/eleventy",
 #
 # 4. Commit this new `gh-pages.yml` file and push it upstream to GitHub
-# https://github.com/11ty/eleventy-base-blog/blob/39454297a92872f2d116315f2af668f2675e7746/.github/workflows/gh-pages.yml.sample
+# YAML file taken from https://github.com/11ty/eleventy-base-blog/blob/39454297a92872f2d116315f2af668f2675e7746/.github/workflows/gh-pages.yml.sample
 
 name: Deploy to GitHub Pages
 
