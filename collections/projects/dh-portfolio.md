@@ -3,7 +3,7 @@ title: DH Certificate Dossier
 layout: page.njk
 logline: A list of the training events I've completed to receive the DH Graduate Certificate Program at UVA.
 collection: projects
-lastModified: April 05, 2026 9:38am
+lastModified: April 25, 2026 9:31am EST
 tags:   
 - inProgress
 ---
@@ -36,21 +36,44 @@ Last modified: {{ lastModified }}
 
 
 ### Extracurricular Technical Learning
-<!-- 
-Omeka workshop
-Seanna's digital pedagogy series 
-2022 Python for Humanists
-2022-2023 Praxis Program
-2024 DHSI
- -->
+- Since 2020, I've attended more one-time workshops on digital methods than I can remember. Here's a list of a few I do, in chronological order:
+    - Using MapWarper 
+    - Arduino Basics with Ammon Sheperd at the Makerspace. 
+    - Raspberry Pi Basics with Ammon Sheperd at the Makerspace. 
+    - Setting up a static collection in Wax using minimal computing by Alex Gil
+    - ArcGIS and StoryMaps basics by Drew McQueen
+    - How use Webscraper.io in your browser and Voyant Tools by Brandon Walsh.
+    - How to set up an Omeka collection with Ronda Grizzle, Jeremy Boggs, and Laura Miller.
 
+- 2021 spring, Python for Humanists 4-day Workshop. Chief instructor: Jackie Huband (now Assistant Director of the Data Analytics Center). We learned to use Python for basic text analysis operations and how to setup programming environments using Anaconda. 
+
+- 2022–2023, Praxis Program Fellow. 
+- 2024 fall. Critical Digital Pedagogy Reading Group. Online, co-hosted by Seanna Viechweg, Rachel Retica, and Brandon Walsh.
+- 2024 DHSI. 
+- 2025 [#byteSizedPedagogy Series](https://walshbr.com/byte-sized-pedagogy), co-hosted by Seanna Viechweg and Brandon Walsh. I guest-hosted the session on October 23, 2025. 
 
 
 ### DH Events and Conferences Attended
+ selection of events and conferences attended. 
 
-<!-- 03: -->
+- 2019 Digital Frontiers Conference. Attendee. In-person. Sep 26–28.
+- 2022, 30 Years of Digital Humanities at UVA celebration (guest speaker). Nov 12. 
+- 2023, Association for Computers and the Humanities (ACH) Annual Conference. Volunteer. Online.
+- 2024, Alliance for Digital Humanities Organizations Annual Conference (ADHO). Presenter. In-person.
+- 2025, ACH Annual Conference. Technical Co-Chair. Online.
 
-<!-- 
+
+### DH Research Assistant Experiences
+
+- 2023–2026 managing editor, archipelagos joural
+- 2024 LAMI
+- 2025 Digital Humanities Designer
+- 2025 ACH web map developer in WorkAdventure
+- 2025 PhD Plus/Student Programs Intern
+- 2026 Student Programs Assitstant
+
+
+<!-- Esto es mucho más detalle de lo que pide el portafolio. 
 ### 02: Coffee and Code, Data Management Workflow
 March 18, 2026, 11:00am–12pm EST <br>
 Shannon Library 308
@@ -61,7 +84,6 @@ TBW
 #### Resources
 https://cal.lib.virginia.edu/event/16256206
 
- -->
 
 #### 01: Coffee and Code, Evaluating OCR
 April 1, 2026, 11:00am–12:00pm EST <br>
@@ -72,14 +94,4 @@ A casual, but in-depth, workshop where the Senior Developer at the Scholars' Lab
 
 ##### Resources
 - [A link to the presentation slides and research materials](https://www.figma.com/deck/grsm7LUtVcQcEgcbd5HY9k/Coffee-and-Code--Evaluating-OCR?node-id=12-30).
-- [Library Calendar Event Page](https://cal.lib.virginia.edu/event/16256179)
-
-
-### DH Research Assistant Experiences
-
-<!-- 2023–2026 managing editor, archipelagos joural
-2024 LAMI
-2025 Digital Humanities Designer
-2025 ACH web map developer in WorkAdventure
-2025 PhD Plus/Student Programs Intern
-2026 Student Programs Assitstant -->
+- [Library Calendar Event Page](https://cal.lib.virginia.edu/event/16256179) -->
