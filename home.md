@@ -4,9 +4,9 @@ header: winnie e. pérez martínez
 title: w. 
 permalink: /
 ---
-My craft is asking difficult questions. I believe community-making and kinship drive the world for the better. 
+My craft is asking difficult questions. I believe direct problem-solving leads to earnest community-making and drives the world to be better. 
 
-I'm a PhD-trained digital humanist focusing on design and infrastructure studies, experienced in higher ed work settings, communication, and teaching. Right now, I’m completing a cultural studies PhD in Spanish while working for the [Scholars' Lab](https://scholarslab.lib.virginia.edu/) in Shannon Library at the University of Virginia.
+I'm a PhD-trained digital humanist focusing on design and infrastructure studies, experienced in higher ed work management, communication, and pedagogy. Right now, I’m completing a cultural studies PhD in Spanish while working for the [Scholars' Lab](https://scholarslab.lib.virginia.edu/) in Shannon Library at the University of Virginia.
 
 {% include "partials/about-site.njk" %}
 
