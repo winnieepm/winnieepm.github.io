@@ -65,7 +65,7 @@ Last modified: {{ lastModified }}
 ### DH Research Assistant Experiences
 
 - 2023–2026 managing editor, archipelagos joural
-- 2024 LAMI
+- 2024 DH teaching instructor, Leadership Alliance-Mellon Initiative (LAMI)
 - 2025 Digital Humanities Designer
 - 2025 ACH web map developer in WorkAdventure
 - 2025 PhD Plus/Student Programs Intern
