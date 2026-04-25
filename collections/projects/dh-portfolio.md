@@ -37,7 +37,6 @@ Last modified: {{ lastModified }}
 
 ### Extracurricular Technical Learning
 - Since 2020, I've attended more one-time workshops on digital methods than I can remember. Here's a list of a few I do, in chronological order:
-    - Using MapWarper 
     - Arduino Basics with Ammon Sheperd at the Makerspace. 
     - Raspberry Pi Basics with Ammon Sheperd at the Makerspace. 
     - Setting up a static collection in Wax using minimal computing by Alex Gil
