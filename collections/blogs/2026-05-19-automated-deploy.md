@@ -1,17 +1,10 @@
 ---
 title: automated deploy with build-ghpages
-date: 2026-05-18
-layout: page.njk
 logline: No more switching GitHub branches to commit website updates. I added GitHub Actions. 
 collection: blogs
-tags:
-    -crossPosted
+labels:
     -siteUpdate
 ---
-
-## {{ title }}
-###### {{ date }}
-
 Following the advice in Brandon Walsh's warning, "anything that gets in the middle will keep you from blogging," I simplified the steps to update and publish my website because the situation was getting a little miserable.
 
 GitHub Pages is a great way to host your static sites free, if you don't mind keeping your code public. It's an especially smooth experience if you produce your site with Jekyll because it enjoys built-in support on this hosting platform. In other words, when you upload your Jekyll code to a public GitHub repository and activate GitHub Pages, the site will deploy automatically and become live within seconds (unless something goes wrong). 

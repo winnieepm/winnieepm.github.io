@@ -11,13 +11,6 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets/images/");
 
     eleventyConfig.addFilter("limit", (array, n) => (Array.isArray(array) ? array : []).slice(0, n));
-    eleventyConfig.addFilter("postDate", (dateObj) => {
-      return dateObj.toLocaleString(undefined, {
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-      });
-    });
 
     eleventyConfig.addShortcode("image", async (src, alt, caption, className) => {
       const metadata = await Image(src, {

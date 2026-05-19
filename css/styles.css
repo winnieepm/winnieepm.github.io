@@ -109,6 +109,12 @@ figcaption {
     overflow: hidden;
     margin-top: .65em;
 }
+.thumbnail h3 {
+    margin-bottom: .5rem;
+}
+.thumbnail span {
+    font-size: smaller;
+}
 /* add border and hover styles to blog items */
 .blog {
     background-color: #c2a6ff;

@@ -1,14 +1,9 @@
 ---
 title: what dh labor talk did for me
 date: 2025-11-04
-layout: page.njk
 logline: How I understood myself a worker thanks to my work at work at the Scholars' Lab.
 collection: blogs
 ---
-
-## {{ title }}
-###### {{ date }}
-
 [Crossposted in the Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/what-dh-labor-talk-did-for-me/). 
 
 Graduate ~~students~~  workers are a lower class form of contingent labor in higher education, although a privileged one. Grad workers supply essential labor to universities for a fraction of a faculty/lecturer salary. As a direct consequence of their contingent status, graduate professional development is  rarely a priority in the daily operations of a doctoral academic curriculum. Institutional needs always come first.

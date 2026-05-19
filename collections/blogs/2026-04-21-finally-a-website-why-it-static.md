@@ -1,17 +1,11 @@
 ---
 date: 2026-04-21
-layout: page.njk
-slug: finally-a-website-why-it-static
 title: "finally, a website, but why is it static?"
 logline: It took three years, but now I have a live static website that I made myself.
-tags:
+labels:
     -crossPosted
     -siteUpdate
 ---
-
-## {{ title }}
-###### {{ date }}
-
 [Crossposted in the Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/finally-a-website-why-it-static/). 
 
 I. Have. A. Website. ✨ [https://winnieepm.github.io/](https://winnieepm.github.io/) ✨

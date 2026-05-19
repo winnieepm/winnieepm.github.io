@@ -1,7 +1,6 @@
 {% extends "layouts/base.njk" %}
 
-<!-- {% block header %}
-<header>
-    <h1 class="section-title"><a href="/{{ collection }}/">{{ collection }}</a></h1>
-</header>
-{% endblock %} -->
+{% block blog_header %}
+<h2>{{ title }}</h2>
+<h4>{{ dateString }}</h4>
+{% endblock %}

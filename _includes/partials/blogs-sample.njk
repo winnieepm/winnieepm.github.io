@@ -4,6 +4,7 @@
     {%- for post in blogsToShow -%}
         <div class="blog thumbnail">
             <h3>{{ post.data.title }}</h3>
+            <span>{{ post.data.dateString }}</span>
             <p>{{ post.data.logline }}</p>
             <a href="{{ post.url }}"><< Read full blog >></a>
         </div>

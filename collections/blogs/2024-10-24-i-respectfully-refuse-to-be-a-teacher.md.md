@@ -1,15 +1,14 @@
 ---
 title: I Respectfully Refuse to be a Teacher
 date: 2024-10-24
-layout: page.njk
 logline: Reflecting on the different meanings of teaching in higher ed, and my relationship to them. 
 collection: blogs
-tags:
+labels:
     -crossPosted
 ---
 
 ## {{ title }}
-###### {{ date }}
+###### {{ page.dateString }}
 
 [Crossposted in the Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/wont-be-a-teacher/).
 

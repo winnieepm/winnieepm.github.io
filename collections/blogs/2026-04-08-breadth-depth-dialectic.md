@@ -1,16 +1,11 @@
 ---
 date: 2026-04-08
-layout: page.njk
 slug: breadth-and-depth-a-self-centered-dialectic
 title: "breadth and depth, a self-centered dialectic"
 logline: Revising the old breadth vs. depth debate in DH with recent personal insights. 
 tags:
     -crossPosted
 ---
-
-## {{ title }}
-###### {{ date }}
-
 [Crossposted in the Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/breadth-and-depth-a-self-centered-dialectic/). 
 
 Lately, I’ve been thinking a lot about that canonical debate around depth vs. breadth in digital humanities (DH). I remember initially my reaction was feeling that “true” DHers should be both, that this was an aptitude anyone could and should develop in the spirit of the discipline.[^1] After much method trial-and-error, I then grew frustrated that I hadn't found “my thing” and disappointed to think I could only do DH in breadth, not depth. I was bound to a path instead of choosing one. Eventually, I decided I didn’t care for the division at all. 
