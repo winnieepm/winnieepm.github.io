@@ -1,7 +1,7 @@
 /* ----COLORS---- */
 :root {
     --heading-purple: #844aff;
-    --background-green: #d8fdd4;
+    --background-green: #d3ffcf;
     --bluegreen: #9FE9B8;
     --thumbnail-light-purple: #d6c4ff;
     --lavender: #d3d3ff;
@@ -17,11 +17,6 @@ body {
     padding-left: 10%;
 }
 
-h1, h2 {
-    font-family: monospace; 
-    color: var(--heading-purple);
-}
-
 a {
     color: var(--heading-purple);
     font-weight: bold;
@@ -30,14 +25,12 @@ a {
 a:active {
     color: #8a54ff;
 }
-pre { 
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px;
-    padding: 1rem;
-    background-color: aliceblue;
+h1, h2 {
+    font-family: monospace; 
+    color: var(--heading-purple);
+}
+header {
+    margin-bottom: 3em;
 }
 figure {
     margin-top: 5rem;
@@ -47,6 +40,15 @@ figcaption {
     font-style:italic;
     font-size: smaller;
     font-weight: bold;
+}
+pre { 
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: aliceblue;
 }
 .regular-img figcaption  {
    display: flex;
@@ -177,7 +179,7 @@ figcaption {
 }
 .my-name a  {
     font-family: "Fascinate Inline", system-ui, sans-serif;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: var(--heading-purple);
 }
 
