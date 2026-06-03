@@ -1,6 +1,13 @@
+/* ----COLORS---- */
+:root {
+    --heading-purple: #7837FD;
+    --background-green: #d8fdd4;
+    --box-bluegreen: #9FE9B8;
+}
+
 /* ----BASIC STYLES---- */
 body {
-    background-color: #d5c3ff;
+    background-color: #d2c0fb;
     font-family: 'Jost', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
     min-height: 98vh;
@@ -58,7 +65,7 @@ figcaption {
 }
 
 
-/* ==== NAVIGATION STYLES ==== */
+/* ----NAVIGATION STYLES---- */
 .nav-item {
     font-family: "Story Script", system-ui, sans-serif;
     font-weight: bold;
@@ -90,7 +97,7 @@ figcaption {
     padding: 0;
 }
 
-/* ==== <<HOME PAGE>> ABOUT THIS PAGE ==== */
+/* ----HOME PAGE: ABOUT THIS PAGE---- */
 #this-site {
     background-color: #FFD966;
     border-radius: 10px;
@@ -100,7 +107,7 @@ figcaption {
 }
 
 
-/* ==== <<HOME PAGE>> PROJECTS & BLOGS GRID LAYOUT ==== */
+/* ----HOME PAGE: PROJECTS & BLOGS GRID LAYOUT---- */
 .collection-container {
     display: flex;
     flex-wrap: wrap;
