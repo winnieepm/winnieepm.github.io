@@ -2,7 +2,7 @@
 :root {
     --heading-purple: #844aff;
     --background-green: #d8fdd4;
-    --box-bluegreen: #9FE9B8;
+    --bluegreen: #9FE9B8;
     --thumbnail-light-purple: #d6c4ff;
     --lavender: #d3d3ff;
 }
@@ -74,7 +74,7 @@ figcaption {
 }
 .nav-item a:hover, a:active {
     text-decoration: underline;
-    text-decoration-color: var(--box-bluegreen);
+    text-decoration-color: var(--bluegreen);
     font-weight: bold;
     padding: .2em;
 }
@@ -101,7 +101,7 @@ figcaption {
 
 /* ----HOME PAGE: ABOUT THIS PAGE---- */
 #this-site {
-    background-color: var(--box-bluegreen);
+    background-color: var(--lavender);
     border-radius: 10px;
     padding: 1rem;
     margin-top: 3em;
@@ -133,7 +133,7 @@ figcaption {
 
 /* add border and hover styles to blog items */
 .blog {
-    background-color: var(--thumbnail-light-purple);
+    background-color: var(--bluegreen);
     box-shadow: 0 4px 8px 0 #632b9137;
     transition: transform 0.2s, box-shadow 0.2s;
 }
