@@ -4,6 +4,7 @@
     --background-green: #d8fdd4;
     --box-bluegreen: #9FE9B8;
     --thumbnail-light-purple: #d6c4ff;
+    --lavender: #d3d3ff;
 }
 
 /* ----BASIC STYLES---- */
@@ -78,7 +79,7 @@ figcaption {
     padding: .2em;
 }
 .nav-item.active a {
-    background-color: #c0a2ff;
+    background-color: var(--lavender); 
     border-radius: 15px;
     padding: .2em;
 }
@@ -228,14 +229,3 @@ nav {
     z-index: 1000;
 }
 }
-
-/* i think none of this is doing anything anymore. */
-/* header {
-    grid-column: 1 / 2;
-} */
-/* UNORGANIZED STYLES BELOW */
-/* a.thumbnail {
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
-} */
