@@ -14,7 +14,7 @@
 <body class="{{ 'home' if page.url == '/' else page.url | replace('/', ' ') | trim }}">
     <div class="layout">
         {% include "partials/header.njk" %}
-       <main>
+        <main>
         {% block blog_header %}{% endblock%}
         {% block content %}{{ content | safe }}{% endblock %}
         </main>

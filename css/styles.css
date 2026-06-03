@@ -3,6 +3,7 @@
     --heading-purple: #844aff;
     --background-green: #d8fdd4;
     --box-bluegreen: #9FE9B8;
+    --thumbnail-light-purple: #d6c4ff;
 }
 
 /* ----BASIC STYLES---- */
@@ -15,18 +16,19 @@ body {
     padding-left: 10%;
 }
 
-h1 {
+h1, h2 {
+    font-family: monospace; 
     color: var(--heading-purple);
 }
 
 a {
-    color: #8B3777;
+    color: var(--heading-purple);
+    font-weight: bold;
     text-decoration: none;
 }
 a:active {
     color: #8a54ff;
 }
-
 pre { 
     margin-top: 5rem;
     display: flex;
@@ -63,14 +65,16 @@ figcaption {
 
 /* ----NAVIGATION STYLES---- */
 .nav-item {
-    font-family: "Story Script", system-ui, sans-serif;
-    font-weight: bold;
-    font-size: 3em;
+    font-family: monospace, sans-serif;
+    /* font-weight: bold; */
+    font-size: 1.25em;
+    /* font-size: 1em; */
     color: var(--heading-purple);
 }
 .nav-item a:hover, a:active {
     text-decoration: underline;
     text-decoration-color: var(--box-bluegreen);
+    font-weight: bold;
     padding: .2em;
 }
 .nav-item.active a {
@@ -92,6 +96,7 @@ figcaption {
     margin: 0;
     padding: 0;
 }
+
 
 /* ----HOME PAGE: ABOUT THIS PAGE---- */
 #this-site {
@@ -126,9 +131,8 @@ figcaption {
 }
 /* add border and hover styles to blog items */
 .blog {
-    background-color: #c2a6ff;
-    border: 1.5px solid #9c7cdfa3;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: var(--thumbnail-light-purple);
+    box-shadow: 0 4px 8px 0 #632b9137;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 .blog img {
@@ -205,7 +209,7 @@ figcaption {
 /* for laptop computer screens */
 @media screen and (min-width: 640px) {
 header,main {
-    width: 65%;
+    width: 75%;
 }
 main {
     font-size: 125%;
@@ -219,7 +223,7 @@ nav {
     top: 0;
     right: 0;
     height: 100vh;
-    width: 30%;
+    width: 20%;
     z-index: 1000;
 }
 }
