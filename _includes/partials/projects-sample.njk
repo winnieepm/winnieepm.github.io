@@ -3,8 +3,10 @@
     {%- assign projectsToShow = collections.projects | limit: 4 -%}
     {%- for project in projectsToShow -%}
         <div class="project thumbnail">
-            <h3>{{ project.data.title }}</h3>
-            <p>{{ project.data.logline }}</p>
+            <div class="thumbnail-header">
+                <h3>{{ project.data.title }}</h3>
+                <p>{{ project.data.logline }}</p>
+            </div>
             <a href="{{ project.url }}"><< Learn more >></a>
             <!--og styles taken from https://ammonshepherd.github.io/ -->
         </div>
