@@ -3,4 +3,6 @@ layout: page.njk
 ---
 
 # about
-the about will expand on the blurb, explain more about my current working position, research, and involvements. it'd be nice to add some personal background. 
+I have a Bacherlor's in Comparative Literature from the Universiy of Puerto Rico, Río Piedras, and an M.A. in Spanish from the University of Virginia (UVA). Currently, I'm an ABD candidate (All But Dissertation) in the PhD program at the (UVA).
+
+Though I have spent many years now in higher education, I got my education in public Puerto Rico schools. Actually, I was born and lived in Puerto Rico until I graduated from college. 
