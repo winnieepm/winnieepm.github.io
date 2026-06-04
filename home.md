@@ -4,9 +4,11 @@ header: winnie e. pérez martínez
 title: w. 
 permalink: /
 ---
-My craft is asking difficult questions. I believe direct problem-solving leads to earnest community-making and drives the world to be better. 
 
-I'm a PhD-trained digital humanist focusing on design and infrastructure studies, experienced in higher ed work management, communication, and pedagogy. Right now, I’m completing a cultural studies PhD in Spanish while working for the [Scholars' Lab](https://scholarslab.lib.virginia.edu/) in Shannon Library at the University of Virginia.
+I like difficult questions. I'm a PhD-trained technologist, researcher, and educator with experience in higher education institutions, organizations, and journals.
+
+My work combines project management, critical digital pedagogy, and web development. I help small teams manage and build digital projects, and my research analyzes the 
+
 
 {% include "partials/about-site.njk" %}
 
