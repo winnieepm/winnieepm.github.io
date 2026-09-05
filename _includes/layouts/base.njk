@@ -22,10 +22,10 @@
         </main>
         <nav>
             <ul class="main-nav">
-                <li class="nav-item{% if page.url == '/' %} active {% endif %}"><a href="/">home</a></li> 
+                <li class="nav-item{% if page.url == '/' %} active {% endif %}"><a href="/" {% if page.url == '/' %} aria-current="page" {% endif %}>home</a></li> 
                 {# <li class="nav-item{% if page.url.startsWith('/about/') %} active {% endif %}"><a href="/about/">about</a></li> #}
-                <li class="nav-item{% if page.url.startsWith('/projects/') %} active {% endif %}"><a href="/projects/">projects</a></li>
-                <li class="nav-item{% if page.url.startsWith('/blogs/') %} active {% endif %}"><a href="/blogs/">blogs</a></li>
+                <li class="nav-item{% if page.url.startsWith('/projects/') %} active {% endif %}"><a href="/projects/" {% if page.url.startsWith('/projects/') %} aria-current="page" {% endif %}>projects</a></li>
+                <li class="nav-item{% if page.url.startsWith('/blogs/') %} active {% endif %}"><a href="/blogs/" {% if page.url.startsWith('/blogs/') %} aria-current="page" {% endif %}>blogs</a></li>
                 <li class="nav-item"><a href="/assets/cv--master-mar2026-v1.2.pdf" aria-label="CV PDF file">c.v.</a></li>
             </ul>
         </nav>
