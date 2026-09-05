@@ -8,7 +8,6 @@ tags:
 - inProgress
 ---
 
-# {{ title }}
 An in-progress record of coursework, work, events, and trainings attended to complete the Digital Humanities Graduate Certificate Program at the University of Virginia (UVA). These records are being prepared to comply with the final requirements to receive the certificate. 
 
 Last modified: {{ lastModified }}

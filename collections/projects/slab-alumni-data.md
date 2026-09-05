@@ -8,7 +8,6 @@ tags:
 - inProgress
 ---
 
-## {{ title }}
 Last Modified: {{ lastModified }}
 
 The Scholars' Lab has awarded 122 fellowships to UVA graduate students interested in digital humanities, and 95 of them are now full-time employees, but there is currently no public demographic data available about their career pathways. 
