@@ -12,7 +12,7 @@
     --bluegreen: #9FE9B8;
     --thumbnail-light-purple: #d6c4ff;
     --lavender: #d3d3ff;
-    --link-violet: #975384
+    --link-violet: #975384;
 }
 
 /* ----BASIC STYLES---- */
@@ -31,7 +31,9 @@ a {
     text-decoration: none;
 }
 a:active {
-    color: #fff;
+    background-color: var(--lavender); 
+    border-radius: 15px;
+    padding: .2em;
 }
 
 a:hover {
