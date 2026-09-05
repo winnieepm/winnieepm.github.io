@@ -8,11 +8,11 @@ tags:
 - inProgress
 ---
 
-An in-progress record of coursework, work, events, and trainings attended to complete the Digital Humanities Graduate Certificate Program at the University of Virginia (UVA). These records are being prepared to comply with the final requirements to receive the certificate. 
+ aIn-progress record of coursework, work, events, and training completed according to the curriculum for the Digital Humanities Graduate Certificate Program at the University of Virginia (UVA). These records will be presented as the final requirement to receive the certif2icate.
 
 Last modified: {{ lastModified }}
 
----
+
 ### Coursework
 - ENGL 8500: Introduction to DH (2022 Spring)
     1. Essays:

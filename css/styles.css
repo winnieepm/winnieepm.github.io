@@ -1,3 +1,10 @@
+/* COLOR SAMPLING
+#881d36 --> wine red
+#d45f35 --> burnt orange
+#975384 --> light plum
+#301728 --> deep plum
+*/
+
 /* ----COLORS---- */
 :root {
     --heading-purple: #844aff;
@@ -5,6 +12,7 @@
     --bluegreen: #9FE9B8;
     --thumbnail-light-purple: #d6c4ff;
     --lavender: #d3d3ff;
+    --link-violet: #975384
 }
 
 /* ----BASIC STYLES---- */
@@ -18,7 +26,7 @@ body {
 }
 
 a {
-    color: var(--heading-purple);
+    color: var(--link-violet);
     font-weight: bold;
     text-decoration: none;
 }
@@ -77,6 +85,8 @@ pre {
     /* font-weight: bold; */
     font-size: 1.25em;
     /* font-size: 1em; */
+}
+.nav-item a {
     color: var(--heading-purple);
 }
 .nav-item a:hover, a:active {
