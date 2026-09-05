@@ -1,6 +1,6 @@
 ---
 title: projects home
-layout: collection-home.njk
+layout: base.njk
 collection: projects
 ---
 
