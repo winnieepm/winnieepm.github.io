@@ -13,7 +13,7 @@ tags:
 Last modified: {{ lastModified }}
 
 
-### Coursework
+## Coursework
 - ENGL 8500: Introduction to DH (2022 Spring)
     1. Essays:
         - ["An Attempt at An Autobiography"](https://docs.google.com/document/d/12fvg8v6nXClZLqSQqwRxXGxRvG57OLgv/edit?usp=sharing&ouid=101005330947918883606&rtpof=true&sd=true)
@@ -34,7 +34,7 @@ Last modified: {{ lastModified }}
     2. [Customized Elective Agreement](https://drive.google.com/file/d/1lcxleAJuiRGZ4dHg7EqVH9icdXDx3gC8/view?usp=sharing)
 
 
-### Extracurricular Technical Learning
+## Extracurricular Technical Learning
 - Since 2020, I've attended more one-time workshops on digital methods than I can remember. Here's a list of a few I do, in chronological order:
     - Arduino Basics with Ammon Sheperd at the Makerspace. 
     - Raspberry Pi Basics with Ammon Sheperd at the Makerspace. 
@@ -51,7 +51,7 @@ Last modified: {{ lastModified }}
 - 2025 [#byteSizedPedagogy Series](https://walshbr.com/byte-sized-pedagogy), co-hosted by Seanna Viechweg and Brandon Walsh. I guest-hosted the session on October 23, 2025. 
 
 
-### DH Events and Conferences Attended
+## DH Events and Conferences Attended
  selection of events and conferences attended. 
 
 - 2019 Digital Frontiers Conference. Attendee. In-person. Sep 26–28.
@@ -61,7 +61,7 @@ Last modified: {{ lastModified }}
 - 2025, ACH Annual Conference. Technical Co-Chair. Online.
 
 
-### DH Research Assistant Experiences
+## DH Research Assistant Experiences
 
 - 2023–2026 managing editor, archipelagos joural
 - 2024 DH teaching instructor, Leadership Alliance-Mellon Initiative (LAMI)

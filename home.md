@@ -11,10 +11,10 @@ My work combines project management, critical digital pedagogy, and web developm
 
 {% include "partials/about-site.njk" %}
 
-# selected work
+## selected work
 
 {% include "partials/projects-sample.njk" %}
 
-# selected writing 
+## selected writing 
 
 {% include "partials/blogs-sample.njk" %}
