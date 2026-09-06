@@ -1,7 +1,7 @@
-my personal site. i built it brick by brick. this is the branch where i make changes. special thanks to @jeremyboggs for helping walk through my muddy code, and to @walshbr for insisting on the virtues of blog writing. ——winnieepm
+a personal website. 
 
 ## How It's Made
-Built on [11ty](https://www.11ty.dev) and hosted by [GitHub Pages](https://docs.github.com/en/pages), free of charge. The website is deployed from `main` branch using Github Actions in `.github/workflows` and further instructions in `package.json` and `.nojekyll`. 
+Built on [11ty](https://www.11ty.dev) and hosted by [GitHub Pages](https://docs.github.com/en/pages). The website is deployed from `main` branch using GitHub Actions in `.github/workflows`. Further dev instructions in `package.json` and `.nojekyll`. 
 
 
 ## Repository Map 
@@ -18,4 +18,4 @@ Built on [11ty](https://www.11ty.dev) and hosted by [GitHub Pages](https://docs.
 
 
 ## Using this Site
-Clone your own version of this repo if you want to make your own version. Using a CLI, navigate to the project root directory. Run `npm start` to locally deploy the site in your computer browser; this is a custom build prompt replacing the more verbose stantard one, `npx @11ty/eleventy --serve --watch`.
+Clone this repo to make your own version of this site. To build and deploy it locally, open a CLI, and run `npm start`. This custom build prompt replaces the more verbose default option `npx @11ty/eleventy --serve --watch`.
