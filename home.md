@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 header: winnie e. pérez martínez
-title: w. 
+title: winnie e. pérez martínez
 permalink: /
 ---
 
