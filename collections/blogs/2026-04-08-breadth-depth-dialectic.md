@@ -4,7 +4,7 @@ slug: breadth-and-depth-a-self-centered-dialectic
 title: "breadth and depth, a self-centered dialectic"
 logline: Revising the old breadth vs. depth debate in DH with recent personal insights. 
 tags:
-    -crossPosted
+    - cross-posted
 ---
 [Crossposted in the Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/breadth-and-depth-a-self-centered-dialectic/). 
 
