@@ -1,7 +1,6 @@
 ---
 title: automated deploy with build-ghpages
-logline: No more switching GitHub branches to commit website updates. I added GitHub Actions. 
-collection: blogs
+logline: No more switching GitHub branches to commit website updates. I added GitHub Actions.
 labels:
     -siteUpdate
 ---

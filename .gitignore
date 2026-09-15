@@ -1,5 +1,5 @@
 # root
 .DS_Store
-node_modules/
 _site/
-drafts
+node_modules/
+drafts/
