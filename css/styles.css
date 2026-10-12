@@ -40,14 +40,14 @@ a:hover {
     text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
+h1, h2, h3, h4, h5, h6, h7, .tagline {
     font-family: monospace; 
     color: var(--heading-purple);
 }
 h1 {
     font-size: 2.5em;
 }
-h2 {
+h2, .tagline {
     font-size: 1.75em
 }
 header {
@@ -74,20 +74,7 @@ pre {
 .more {
     font-size: .75em;
 }
-.regular-img figcaption  {
-   display: flex;
-   justify-self: flex-end;
-   height: auto;
-   width: 90%;
-}
-.regular-img img  {
-    border: 4px solid white;
-   border-radius: 10px;
-   display: flex;
-   justify-self: flex-end;
-   height: auto;
-   width: 90%;
-}
+
 .skip {
   position: absolute;
   left: -10000px;
@@ -139,6 +126,26 @@ pre {
     padding: 0;
 }
 
+/* ----HEADER STYLES---- */
+.my-name a  {
+    font-family: "Fascinate Inline", system-ui, sans-serif;
+    font-size: 4.5rem;
+    color: var(--heading-purple);
+}
+.profile-pic {
+    display: block;
+    width: 60%;
+    margin: 0 auto 1rem;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    shape-outside: circle(40%);
+}
+.header-container {
+    margin-top: 3em;
+    font-size: x-large;
+    display: flow-root;
+}
 
 /* ----HOME PAGE: ABOUT THIS PAGE---- */
 #this-site {
@@ -148,7 +155,6 @@ pre {
     margin-top: 3em;
     margin-bottom: 5em;
 }
-
 
 /* ----HOME PAGE: PROJECTS & BLOGS GRID LAYOUT---- */
 .collection-container {
@@ -210,17 +216,15 @@ pre {
 
 
 
+/* ==================== */
+
 /* unorg styles */
 .initial a {
     font-family: "Fascinate Inline", system-ui, sans-serif;
     font-size: 4.5rem;
     color: #6229DB;
 }
-.my-name a  {
-    font-family: "Fascinate Inline", system-ui, sans-serif;
-    font-size: 3.5rem;
-    color: var(--heading-purple);
-}
+
 
 .professional-summ {
     margin-top: .5em;
@@ -234,16 +238,18 @@ pre {
 /* ====  SIZE RESPONSIVE STYLES ==== */
 
 /* for mobile screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 639px) {
     body {
     /* flex-direction: row; */
     padding: 2rem;
 }
     .collection-container {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         max-width: 70vh;
-        min-width: none;
-        /* flex-wrap: wrap; */
+        /* min-width: none; */
+    }
+    .profile-pic {
+        display: flow-root;
     }
 }
 
@@ -253,6 +259,13 @@ pre {
 @media screen and (min-width: 640px) {
 header,main {
     width: 75%;
+}
+.profile-pic {
+    float: right;
+    width: 45%;
+    margin: 0 0 0 1rem;
+    shape-outside: circle(43%);
+    shape-margin: 1.75rem;
 }
 main {
     font-size: 125%;

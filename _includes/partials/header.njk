@@ -1,16 +1,23 @@
 {% if page.url == "/"%}
 <header>
     <h1 class="my-name"> <a href="/">winnie e. pérez martínez</a></h1>
-    <h2>a personal website</h2>
+    <p class="tagline">a personal website</p>
+    <div class="header-container">
+
+        <img src="/assets/images/2026-mayo.webp" alt="Profile photo of Winnie E. Pérez Martínez." class="profile-pic regular-img">
+
+        <div>
+            <p>I like difficult questions and fuzzy data.</p>
+            <p>I'm a technologist, researcher, and educator specializing in digital humanities and Caribbean cultural studies from a literary framing. I have experience working in higher education institutions, professional organizations, and journals. I enjoy helping small teams manage, maintain, and build digital projects. My work combines project management, critical digital pedagogy, and web development.</p>
+            <p>My current research identifies grassroots sovereign practices of social transformation and knowledge creation in Puerto Rican science fiction to explore their significance for post-capitalist modes of scholarship. I live obsessed with infrastructures.</p>
+        </div>
+    </div>
 </header>
 
 {% elif collection %}
 <header>
     <h1 class="initial"><a href="/">w.</a></h1>
 </header>
-{# <header>
-    <h1 class="section-title"><a href="/{{ collection }}/">{{ collection }}</a></h1>
-</header> #}
 
 {% else %}
 <header>
