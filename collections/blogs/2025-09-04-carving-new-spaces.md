@@ -2,9 +2,8 @@
 title: carving new spaces
 date: 2025-09-04
 logline: A reflection on the professional spaces available to grad students. The inaugural blog post for my PhD+/Scholars' Lab internship in fall 2025.
-collection: blogs
 labels:
-    - cross-posted
+    - crossposted
 ---
 
 [Crossposted in the Scholars' Lab blog](hhttps://scholarslab.lib.virginia.edu/blog/carving-new-spaces/).

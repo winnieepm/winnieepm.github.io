@@ -2,7 +2,8 @@
 title: what dh labor talk did for me
 date: 2025-11-04
 logline: How I understood myself a worker thanks to my work at work at the Scholars' Lab.
-collection: blogs
+labels:
+    - crossposted
 ---
 [Crossposted in the Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/what-dh-labor-talk-did-for-me/). 
 
