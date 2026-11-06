@@ -4,6 +4,4 @@ title: about
 ---
 
 # about
-I have a Bacherlor's in Comparative Literature from the Universiy of Puerto Rico, Río Piedras, and an M.A. in Spanish from the University of Virginia (UVA). Currently, I'm an ABD candidate (All But Dissertation) in the PhD program at the (UVA).
-
-Though I have spent many years now in higher education, I got my education in public Puerto Rico schools. Actually, I was born and lived in Puerto Rico until I graduated from college. 
+I was born and raised in Puerto Rico. I went to public schools and later attended the University of Puerto Rico, Río Piedras, where I got a BA in Comparative. I'm pretty sure this was one of the ✨best✨ decisions I've made in my life. I also have an MA in Spanish from the University of Virginia and am completing a PhD in Spanish and Digital Humanities at the same institution.
