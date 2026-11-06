@@ -1,7 +1,5 @@
-const Image = require("@11ty/eleventy-img");
-
-
 module.exports = async function(eleventyConfig) {
+    const { default: Image, generateHTML } = await import("@11ty/eleventy-img");
     const { EleventyRenderPlugin } = await import("@11ty/eleventy");
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     
@@ -20,7 +18,8 @@ module.exports = async function(eleventyConfig) {
       urlPath: "/assets/images/",
     });
 
-    const pictureTag = Image.generateHTML(metadata, {
+
+    const pictureTag = generateHTML(metadata, {
       alt,
       loading: "lazy",
       decoding: "async",
