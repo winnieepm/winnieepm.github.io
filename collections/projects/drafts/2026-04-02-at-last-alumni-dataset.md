@@ -9,6 +9,7 @@ collection: blogs
 ## {{ title }}
 
 ## what is it?
+
 This digital and research project was an effort to update, model, and prototype potential methods to make public placement data for UVA alumni who participated in Scholars' Lab fellowship programs from ==YYYY== through Spring 2026. 
 
 ## project context
@@ -22,6 +23,7 @@ This being the case for academic-adjacent positions, what are the chances for hu
 Amidst this atmosphere, the [Scholars' Lab](#) within the [Digital Humanities Center](#) at the University of Virginia brings a different vision: to meet students where they are, ask them where they want to be, and help them develop the professional skills to get there. They support this vision using digital humanities as their framework, a discipline characterized by digital literacy as much as it is by a desire to recognize the labor conditions of academic work.
 
 ### development circumstances
+
 I took on this project as part of a year-long internship with the Scholars' Lab as a DH Student Programs Assistant, working first under the direction of Brandon Walsh, and after ==[...]== 
 
 ## the data
